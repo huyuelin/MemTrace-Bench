@@ -311,7 +311,8 @@ def download_react_from_huggingface(
     """Download ReAct dataset from HuggingFace and return parsed traces.
 
     Uses the `datasets` library to load yizhangchi/ReAct.
-    Falls back to manual download if datasets library is not available.
+    Falls back to manual download if datasets library is not available or
+    the dataset cannot be found on the Hub.
 
     Parameters
     ----------
@@ -338,8 +339,17 @@ def download_react_from_huggingface(
         )
         return _download_react_manual(react_dir, max_samples)
 
-    print(f"Loading ReAct dataset from HuggingFace: {REACT_HF_DATASET}")
-    dataset = load_dataset(REACT_HF_DATASET, split="train", streaming=False)
+    # Try loading from HuggingFace; fall back to manual download on any error
+    try:
+        print(f"Loading ReAct dataset from HuggingFace: {REACT_HF_DATASET}")
+        dataset = load_dataset(REACT_HF_DATASET, split="train", streaming=False)
+    except Exception as e:
+        print(
+            f"[WARN] Failed to load {REACT_HF_DATASET} from HuggingFace: {e}. "
+            "Falling back to manual download from GitHub.",
+            file=sys.stderr,
+        )
+        return _download_react_manual(react_dir, max_samples)
 
     # Convert to list, limited by max_samples
     samples: list[dict[str, Any]] = []

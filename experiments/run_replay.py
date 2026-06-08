@@ -26,11 +26,24 @@ from typing import List, Dict, Any
 
 
 def load_sequences(path: str) -> List[Dict[str, Any]]:
-    """Load sequence cards from JSON file."""
+    """Load sequence cards from JSON file.
+
+    Handles both formats:
+      - List format: [seq1, seq2, ...]
+      - Dict format (benchmark_v1.json): {"train": [...], "val": [...], "test": [...]}
+    """
     assert os.path.exists(path), f"Sequences file not found: {path}"
     with open(path) as f:
-        sequences = json.load(f)
-    assert isinstance(sequences, list), f"Expected list, got {type(sequences)}"
+        raw = json.load(f)
+    if isinstance(raw, dict) and any(k in raw for k in ["train", "val", "test"]):
+        # benchmark_v1.json format: merge all splits
+        sequences = []
+        for split in ["train", "val", "test"]:
+            if split in raw and isinstance(raw[split], list):
+                sequences.extend(raw[split])
+    else:
+        assert isinstance(raw, list), f"Expected list or benchmark dict, got {type(raw)}"
+        sequences = raw
     assert len(sequences) > 0, "No sequences loaded"
     return sequences
 

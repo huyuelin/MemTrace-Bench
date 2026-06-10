@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccc}
+\toprule
+Configuration & Pass $\uparrow$ & Bad $\downarrow$ & Utility & Ret. \\
+\midrule
+No memory & 70.0 & 40.0 & 58.0 & 0.0 \
+Naive & 78.0 & 0.0 & 74.0 & 0.0 \
+Conversation & 80.0 & 10.0 & 74.0 & 0.0 \
+MemoryBank & 70.0 & 0.0 & 68.0 & 0.0 \
+Reflexion & 86.0 & 20.0 & 74.0 & 0.0 \
+Workflow & 82.0 & 20.0 & 72.0 & 0.0 \
+LangMem & 84.0 & 0.0 & 78.0 & 0.0 \
+CurrentRepoRAG & 76.0 & 20.0 & 70.0 & 0.0 \
+TimeAwareRAG & 82.0 & 10.0 & 78.0 & 0.0 \
+ToolVerifiedRAG & 74.0 & 0.0 & 68.0 & 0.0 \
+MemGPT & 84.0 & 10.0 & 74.0 & 0.0 \
+Mem0 & 86.0 & 0.0 & 72.0 & 0.0 \
+Zep & 82.0 & 0.0 & 78.0 & 0.0 \
+A-MEM & 66.0 & 0.0 & 60.0 & 0.0 \
+Reference mediator & 80.0 & 30.0 & 68.0 & 0.0 \
+\bottomrule
+\end{tabular}
+\caption{Baseline memory configurations comparison.}
+\label{tab:baselines}
+\end{table}

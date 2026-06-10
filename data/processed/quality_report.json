@@ -1,0 +1,41 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-08T15:32:26.295786",
+    "script": "validate_traces.py",
+    "total_traces": 1600
+  },
+  "validation": {
+    "passed": true,
+    "error_count": 0,
+    "errors": []
+  },
+  "distribution": {
+    "by_source": {
+      "github": 600,
+      "swe_bench": 1000,
+      "react": 0,
+      "unknown": 0
+    },
+    "by_memory_type": {
+      "cross-repo": 533,
+      "stale-api": 111,
+      "stale-security": 118,
+      "hidden-channel": 119,
+      "in-scope": 719
+    },
+    "by_channel": {
+      "memory-store": 1104,
+      "conversation": 110,
+      "tool-log": 92,
+      "terminal-cache": 110,
+      "wrapper-patch": 79,
+      "scratchpad": 105
+    },
+    "by_task_type": {
+      "bugfix": 1138,
+      "feature": 128,
+      "refactor": 165,
+      "optimization": 169
+    }
+  }
+}

@@ -122,6 +122,10 @@ class BaseMemorySystem(ABC):
             return self._real_test_results(seq, patch, agent, work_dir)
         else:
             # Mock mode: use mock test results
+            # WARNING: Mock mode returns synthetic data that does NOT reflect real experimental results.
+            # The data is intentionally obvious fake (pass_label=True, bad_label=False) to avoid misleading users.
+            # To run real experiments, set use_real=True (requires API keys and GPU).
+            print(f"[WARNING] Mock mode enabled for {self.get_condition_name()}. Results are synthetic and NOT from real experiments.")
             return self._mock_test_results(seq)
 
     def _real_test_results(
@@ -194,8 +198,15 @@ class BaseMemorySystem(ABC):
                 pass_label = False
                 break
 
-        # Step 4: bad_label (simplified: always False for now)
-        bad_label = False
+        # Step 4: bad_label (NOT IMPLEMENTED - placeholder)
+        # TODO: Implement real bad_label computation using oracle comparison:
+        # - Hidden tests: check if patch passes all hidden tests
+        # - Semantic oracle: check if patch passes semantic checks
+        # - Security oracle: check if patch introduces security vulnerabilities
+        # Currently returns False (no bad outputs detected) which is INCORRECT.
+        print(f"[WARNING] bad_label computation is NOT implemented. Returning False (incorrect).")
+        print(f"[WARNING] To get correct results, implement _compute_bad_label() method.")
+        bad_label = False  # PLACEHOLDER - do not use for research
 
         return pass_label, bad_label
 
@@ -216,7 +227,12 @@ class BaseMemorySystem(ABC):
 
     def _build_prompt(self, seq, memories):
         memory_text = "\n".join([f"- {m.get('text', '')}" for m in memories])
-        return f"Task: {seq.get('task_type', 'unknown')}\nFiles: {', '.join(seq.get('files', []))}\nMemory:\n{memory_text}"
+        files = seq.get('files', [])
+        if files and isinstance(files[0], dict):
+            files_str = ', '.join([f.get('file_path', str(f)) for f in files])
+        else:
+            files_str = ', '.join(files) if files else ''
+        return f"Task: {seq.get('task_type', 'unknown')}\nFiles: {files_str}\nMemory:\n{memory_text}"
 
     def _mock_agent_call(self, agent, prompt, config):
         return f"# Mock patch for {self.get_condition_name()}"

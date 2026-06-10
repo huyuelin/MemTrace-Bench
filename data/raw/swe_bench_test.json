@@ -1,0 +1,187 @@
+[
+  {
+    "sequence_id": "swe-bench-astropy__astropy-11693",
+    "repo_url": "https://github.com/astropy/astropy",
+    "repo_commit": "3832210580d516365ddae1a62071001faf94d416",
+    "repo_license": "Unknown",
+    "task_type": "bugfix",
+    "prompt_hash": "b8daaf955c1f3ec2",
+    "files": [
+      "src/unknown.py"
+    ],
+    "memory_type": "single-repo",
+    "channel": "memory-store",
+    "evidence": "Agent may have seen astropy/astropy code in training data",
+    "oracle_type": "hidden-tests",
+    "tests": [],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": "0"
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ]
+  },
+  {
+    "sequence_id": "swe-bench-astropy__astropy-12057",
+    "repo_url": "https://github.com/astropy/astropy",
+    "repo_commit": "b6769c18c0881b6d290e543e9334c25043018b3f",
+    "repo_license": "Unknown",
+    "task_type": "bugfix",
+    "prompt_hash": "df79d19fdab39e08",
+    "files": [
+      "src/unknown.py"
+    ],
+    "memory_type": "single-repo",
+    "channel": "memory-store",
+    "evidence": "Agent may have seen astropy/astropy code in training data",
+    "oracle_type": "hidden-tests",
+    "tests": [],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": "1"
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ]
+  },
+  {
+    "sequence_id": "swe-bench-astropy__astropy-12318",
+    "repo_url": "https://github.com/astropy/astropy",
+    "repo_commit": "43ce7895bb5b61d4fab2f9cc7d07016cf105f18e",
+    "repo_license": "Unknown",
+    "task_type": "bugfix",
+    "prompt_hash": "3ca6db1fe9bbff44",
+    "files": [
+      "src/unknown.py"
+    ],
+    "memory_type": "single-repo",
+    "channel": "memory-store",
+    "evidence": "Agent may have seen astropy/astropy code in training data",
+    "oracle_type": "hidden-tests",
+    "tests": [],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": "2"
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ]
+  },
+  {
+    "sequence_id": "swe-bench-astropy__astropy-12544",
+    "repo_url": "https://github.com/astropy/astropy",
+    "repo_commit": "3a0cd2d8cd7b459cdc1e1b97a14f3040ccc1fffc",
+    "repo_license": "Unknown",
+    "task_type": "feature",
+    "prompt_hash": "7ea37dec08442ea1",
+    "files": [
+      "src/unknown.py"
+    ],
+    "memory_type": "single-repo",
+    "channel": "memory-store",
+    "evidence": "Agent may have seen astropy/astropy code in training data",
+    "oracle_type": "hidden-tests",
+    "tests": [],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": "3"
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ]
+  },
+  {
+    "sequence_id": "swe-bench-astropy__astropy-12825",
+    "repo_url": "https://github.com/astropy/astropy",
+    "repo_commit": "43ee5806e9c6f7d58c12c1cb9287b3c61abe489d",
+    "repo_license": "Unknown",
+    "task_type": "bugfix",
+    "prompt_hash": "bae9adce0d7bb521",
+    "files": [
+      "src/unknown.py"
+    ],
+    "memory_type": "single-repo",
+    "channel": "memory-store",
+    "evidence": "Agent may have seen astropy/astropy code in training data",
+    "oracle_type": "hidden-tests",
+    "tests": [],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": "4"
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ]
+  }
+]

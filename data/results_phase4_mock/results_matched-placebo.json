@@ -1,0 +1,142 @@
+[
+  {
+    "condition": "matched-placebo",
+    "sequence_id": "github_00213_1ddca4e1",
+    "prompt_text": "Task: optimization\nFiles: src/module_0.py, src/module_1.py, src/module_2.py\nMemory context:\n- Placebo memory (matched): irrelevant fix pattern #0\n- Placebo memory (matched): irrelevant fix pattern #1\n- Placebo memory (matched): irrelevant fix pattern #2",
+    "patch": "# Mock patch for prompt: Task: optimization\nFiles: src/module_0.py, src/mod...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "github_00213_1ddca4e1-placebo-matched-0",
+      "github_00213_1ddca4e1-placebo-matched-1",
+      "github_00213_1ddca4e1-placebo-matched-2"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "matched-placebo",
+    "sequence_id": "github_00059_2f5b9452",
+    "prompt_text": "Task: bugfix\nFiles: src/module_0.py, src/module_1.py, src/module_2.py\nMemory context:\n- Placebo memory (matched): irrelevant fix pattern #0\n- Placebo memory (matched): irrelevant fix pattern #1\n- Placebo memory (matched): irrelevant fix pattern #2",
+    "patch": "# Mock patch for prompt: Task: bugfix\nFiles: src/module_0.py, src/module_1....",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "github_00059_2f5b9452-placebo-matched-0",
+      "github_00059_2f5b9452-placebo-matched-1",
+      "github_00059_2f5b9452-placebo-matched-2"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "matched-placebo",
+    "sequence_id": "github_00138_f93e814c",
+    "prompt_text": "Task: optimization\nFiles: src/module_0.py, src/module_1.py, src/module_2.py, src/module_3.py, src/module_4.py\nMemory context:\n- Placebo memory (matched): irrelevant fix pattern #0\n- Placebo memory (matched): irrelevant fix pattern #1\n- Placebo memory (matched): irrelevant fix pattern #2",
+    "patch": "# Mock patch for prompt: Task: optimization\nFiles: src/module_0.py, src/mod...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "github_00138_f93e814c-placebo-matched-0",
+      "github_00138_f93e814c-placebo-matched-1",
+      "github_00138_f93e814c-placebo-matched-2"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "matched-placebo",
+    "sequence_id": "github_00540_f93e814c",
+    "prompt_text": "Task: bugfix\nFiles: src/module_0.py, src/module_1.py, src/module_2.py, src/module_3.py, src/module_4.py\nMemory context:\n- Placebo memory (matched): irrelevant fix pattern #0\n- Placebo memory (matched): irrelevant fix pattern #1\n- Placebo memory (matched): irrelevant fix pattern #2",
+    "patch": "# Mock patch for prompt: Task: bugfix\nFiles: src/module_0.py, src/module_1....",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "github_00540_f93e814c-placebo-matched-0",
+      "github_00540_f93e814c-placebo-matched-1",
+      "github_00540_f93e814c-placebo-matched-2"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "matched-placebo",
+    "sequence_id": "github_00283_1296ad6d",
+    "prompt_text": "Task: optimization\nFiles: src/module_0.py, src/module_1.py, src/module_2.py\nMemory context:\n- Placebo memory (matched): irrelevant fix pattern #0\n- Placebo memory (matched): irrelevant fix pattern #1\n- Placebo memory (matched): irrelevant fix pattern #2",
+    "patch": "# Mock patch for prompt: Task: optimization\nFiles: src/module_0.py, src/mod...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "github_00283_1296ad6d-placebo-matched-0",
+      "github_00283_1296ad6d-placebo-matched-1",
+      "github_00283_1296ad6d-placebo-matched-2"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "matched-placebo",
+    "sequence_id": "github_00586_02ec8b00",
+    "prompt_text": "Task: bugfix\nFiles: src/module_0.py, src/module_1.py, src/module_2.py\nMemory context:\n- Placebo memory (matched): irrelevant fix pattern #0\n- Placebo memory (matched): irrelevant fix pattern #1\n- Placebo memory (matched): irrelevant fix pattern #2",
+    "patch": "# Mock patch for prompt: Task: bugfix\nFiles: src/module_0.py, src/module_1....",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "github_00586_02ec8b00-placebo-matched-0",
+      "github_00586_02ec8b00-placebo-matched-1",
+      "github_00586_02ec8b00-placebo-matched-2"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "matched-placebo",
+    "sequence_id": "github_00043_78cb3626",
+    "prompt_text": "Task: optimization\nFiles: src/module_0.py, src/module_1.py\nMemory context:\n- Placebo memory (matched): irrelevant fix pattern #0\n- Placebo memory (matched): irrelevant fix pattern #1\n- Placebo memory (matched): irrelevant fix pattern #2",
+    "patch": "# Mock patch for prompt: Task: optimization\nFiles: src/module_0.py, src/mod...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "github_00043_78cb3626-placebo-matched-0",
+      "github_00043_78cb3626-placebo-matched-1",
+      "github_00043_78cb3626-placebo-matched-2"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "matched-placebo",
+    "sequence_id": "github_00030_4a9c5129",
+    "prompt_text": "Task: refactor\nFiles: src/module_0.py, src/module_1.py, src/module_2.py, src/module_3.py, src/module_4.py\nMemory context:\n- Placebo memory (matched): irrelevant fix pattern #0\n- Placebo memory (matched): irrelevant fix pattern #1\n- Placebo memory (matched): irrelevant fix pattern #2",
+    "patch": "# Mock patch for prompt: Task: refactor\nFiles: src/module_0.py, src/module_...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "github_00030_4a9c5129-placebo-matched-0",
+      "github_00030_4a9c5129-placebo-matched-1",
+      "github_00030_4a9c5129-placebo-matched-2"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "matched-placebo",
+    "sequence_id": "github_00357_903bfb06",
+    "prompt_text": "Task: optimization\nFiles: src/module_0.py, src/module_1.py, src/module_2.py, src/module_3.py\nMemory context:\n- Placebo memory (matched): irrelevant fix pattern #0\n- Placebo memory (matched): irrelevant fix pattern #1\n- Placebo memory (matched): irrelevant fix pattern #2",
+    "patch": "# Mock patch for prompt: Task: optimization\nFiles: src/module_0.py, src/mod...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "github_00357_903bfb06-placebo-matched-0",
+      "github_00357_903bfb06-placebo-matched-1",
+      "github_00357_903bfb06-placebo-matched-2"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "matched-placebo",
+    "sequence_id": "github_00522_f93e814c",
+    "prompt_text": "Task: bugfix\nFiles: src/module_0.py, src/module_1.py\nMemory context:\n- Placebo memory (matched): irrelevant fix pattern #0\n- Placebo memory (matched): irrelevant fix pattern #1\n- Placebo memory (matched): irrelevant fix pattern #2",
+    "patch": "# Mock patch for prompt: Task: bugfix\nFiles: src/module_0.py, src/module_1....",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "github_00522_f93e814c-placebo-matched-0",
+      "github_00522_f93e814c-placebo-matched-1",
+      "github_00522_f93e814c-placebo-matched-2"
+    ],
+    "memory_type": "cross-repo"
+  }
+]

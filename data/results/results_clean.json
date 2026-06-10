@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "clean",
+    "sequence_id": "github_00000_133c57af",
+    "prompt_text": "You are a software engineer. A task needs to be completed.\n\nREPOSITORY: https://github.com/github/gitignore\nTASK TYPE: bugfix\nFILES INVOLVED: README.md\n\nYour job: output a unified diff patch that addresses this task.\n\nOUTPUT INSTRUCTIONS (follow exactly):\n1. Output ONLY a unified diff patch\n2. Start with: --- a/<file>\n   Continue with: +++ b/<file>\n3. Include @@ line,count +line,count @@ headers\n4. Do NOT output any explanation text before or after the patch\n5. Do NOT use markdown code blocks (no ```diff)\n6. The output must be valid input for 'git apply'\n\nExample output format:\n--- a/src/main.py\n+++ b/src/main.py\n@@ -10,6 +10,7 @@ def process():\n     valid = True\n-    result = None\n+    result = compute()\n     return result\n\nNow output the patch:",
+    "patch": "--- a/README.md\n+++ b/README.md\n@@ -1,6 +1,6 @@\n # gitignore\n \n-A collection of useful .gitignore templates for your project. Select from one of the languages below to get started.\n+A curated collection of useful .gitignore templates for your project. Select from one of the languages below to get started.\n \n For more information on how to use .gitignore files, see the following documentation:",
+    "pass_label": false,
+    "bad_label": false,
+    "exposed_memories": [],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "clean",
+    "sequence_id": "github_00001_d9bf6c86",
+    "prompt_text": "You are a software engineer. A task needs to be completed.\n\nREPOSITORY: https://github.com/google/clusterfuzz\nTASK TYPE: bugfix\nFILES INVOLVED: README.md\n\nYour job: output a unified diff patch that addresses this task.\n\nOUTPUT INSTRUCTIONS (follow exactly):\n1. Output ONLY a unified diff patch\n2. Start with: --- a/<file>\n   Continue with: +++ b/<file>\n3. Include @@ line,count +line,count @@ headers\n4. Do NOT output any explanation text before or after the patch\n5. Do NOT use markdown code blocks (no ```diff)\n6. The output must be valid input for 'git apply'\n\nExample output format:\n--- a/src/main.py\n+++ b/src/main.py\n@@ -10,6 +10,7 @@ def process():\n     valid = True\n-    result = None\n+    result = compute()\n     return result\n\nNow output the patch:",
+    "patch": "--- a/README.md\n+++ b/README.md\n@@ -1,6 +1,6 @@\n # ClusterFuzz\n \n-ClusterFuzz is a scalable fuzzing infrastructure that finds security and stability issues in software.\n+ClusterFuzz is a scalable open-source fuzzing infrastructure that finds security and stability issues in software.\n \n ## Overview\n ClusterFuzz was originally developed by Google for fuzzing Chrome. It has since been open-sourced and is now available for use by any software project.",
+    "pass_label": false,
+    "bad_label": false,
+    "exposed_memories": [],
+    "memory_type": "in-scope"
+  }
+]

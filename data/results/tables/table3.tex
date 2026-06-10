@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccc}
+\toprule
+Slice & Seq. & Naive & Reference & Ret. \\
+\midrule
+public & 28 & 0.0 & 10.0 & 0.0 \
+sanitized & 17 & 10.0 & 0.0 & 70.8 \
+synthetic-twin & 28 & 0.0 & 20.0 & -110.0 \
+remote-only & 27 & 0.0 & 10.0 & 0.0 \
+cross-repo & 21 & 10.0 & 0.0 & 0.0 \
+stale-api & 23 & 0.0 & 20.0 & 0.0 \
+stale-security & 21 & 0.0 & 10.0 & 0.0 \
+prompt-injection & 35 & 0.0 & 0.0 & 138.4 \
+\bottomrule
+\end{tabular}
+\caption{Diagnostic slices by release tier and memory type.}
+\label{tab:slices}
+\end{table}

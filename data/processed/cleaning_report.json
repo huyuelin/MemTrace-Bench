@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-08T16:34:11.427328",
+  "input_count": 1531,
+  "removed": {
+    "empty_sequence_id": 0,
+    "empty_repo_url": 1,
+    "empty_files": 530,
+    "duplicate_sequence_id": 0
+  },
+  "kept": 1000,
+  "output_count": 1000,
+  "stats": {
+    "count": 1000,
+    "memory_type_counts": {
+      "cross-repo": 400,
+      "in-scope": 600
+    },
+    "task_type_counts": {
+      "bugfix": 1000
+    },
+    "bad_label_counts": {
+      "unlabeled": 1000
+    },
+    "timestamp_min": null,
+    "timestamp_max": null,
+    "timestamp_count": 0
+  }
+}

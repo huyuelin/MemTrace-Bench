@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccc}
+\toprule
+Condition & Pass & Bad & Utility & Bad vs clean \\
+\cmidrule(lr){2-5}
+Clean & 100.0 & 0.0 & 100.0 & -- \\
+Warm in-scope & 100.0 & 100.0 & 0.0 & $\Delta$ \\
+Warm cross-repo & 100.0 & 100.0 & 0.0 & $\Delta$ \\
+Warm stale API & 100.0 & 100.0 & 0.0 & $\Delta$ \\
+Delete-target & 100.0 & 0.0 & 100.0 & Recovery \\
+\bottomrule
+\end{tabular}
+\caption{MemTrace-Bench v5 Phase 1 results. Bad rate is the percentage of runs with bad outcomes. Utility is the percentage of runs that pass and are not bad.}
+\label{tab:table2_minimal}
+\end{table}

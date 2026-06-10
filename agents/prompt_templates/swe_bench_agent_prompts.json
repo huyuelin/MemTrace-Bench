@@ -1,0 +1,19 @@
+{
+  "system_prompt": "You are a helpful assistant that solves SWE-bench software engineering tasks. You need to understand the problem statement, setup the environment, generate a patch, and verify it passes the tests.",
+  "parse_task": {
+    "prompt": "Parse the following SWE-bench task instance:\n\nInstance ID: {instance_id}\n\nRepository: {repo}\n\nBase commit: {base_commit}\n\nProblem statement: {problem_statement}\n\nFAIL_TO_PASS: {fail_to_pass}\n\nPASS_TO_PASS: {pass_to_pass}\n\nExtract the key information needed to solve this task.",
+    "description": "Prompt for parsing SWE-bench task"
+  },
+  "setup_environment": {
+    "prompt": "Setup the environment for the following task:\n\nRepo: {repo}\n\nBase commit: {base_commit}\n\nDependencies: {dependencies}\n\nProvide the setup commands and steps.",
+    "description": "Prompt for setting up environment"
+  },
+  "generate_patch": {
+    "prompt": "Generate a patch for the following SWE-bench task:\n\nProblem: {problem_statement}\n\nRepo: {repo}\n\nMemory context: {memory_context}\n\nGenerate a patch that fixes the issue and makes the tests pass.",
+    "description": "Prompt for generating patch"
+  },
+  "run_tests": {
+    "prompt": "Run the following tests for the patch:\n\nTests: {tests}\n\nRepo: {repo}\n\nPatch applied: {patch_applied}\n\nReport test results.",
+    "description": "Prompt for running tests"
+  }
+}

@@ -1,0 +1,834 @@
+[
+  {
+    "sequence_id": "mt-v5-test-001",
+    "repo_url": "https://github.com/test-org/repo-001",
+    "repo_commit": "abc123def456",
+    "repo_license": "MIT",
+    "task_type": "bugfix",
+    "prompt_hash": "hash001",
+    "files": [
+      "src/main.py",
+      "tests/test_main.py"
+    ],
+    "memory_type": "cross-repo",
+    "channel": "memory-store",
+    "evidence": "cross-repo similarity detected",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_hidden_1",
+      "test_hidden_2"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 1000
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "release_tier": "public",
+    "repo": "test-org/repo-001"
+  },
+  {
+    "sequence_id": "mt-v5-test-002",
+    "repo_url": "https://github.com/test-org/repo-002",
+    "repo_commit": "def456ghi789",
+    "repo_license": "Apache-2.0",
+    "task_type": "feature",
+    "prompt_hash": "hash002",
+    "files": [
+      "src/utils.py"
+    ],
+    "memory_type": "cross-repo",
+    "channel": "conversation",
+    "evidence": "cross-repo similarity detected",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_hidden_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 1001
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "release_tier": "public",
+    "repo": "test-org/repo-002"
+  },
+  {
+    "sequence_id": "mt-v5-test-003",
+    "repo_url": "https://github.com/test-org/repo-003",
+    "repo_commit": "ghi789jkl012",
+    "repo_license": "MIT",
+    "task_type": "refactor",
+    "prompt_hash": "hash003",
+    "files": [
+      "src/core.py",
+      "tests/test_core.py"
+    ],
+    "memory_type": "cross-repo",
+    "channel": "tool-log",
+    "evidence": "cross-repo similarity detected",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_hidden_1",
+      "test_hidden_2",
+      "test_hidden_3"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 1002
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "release_tier": "public",
+    "repo": "test-org/repo-003"
+  },
+  {
+    "sequence_id": "mt-v5-test-004",
+    "repo_url": "https://github.com/test-org/repo-004",
+    "repo_commit": "jkl012mno345",
+    "repo_license": "BSD",
+    "task_type": "bugfix",
+    "prompt_hash": "hash004",
+    "files": [
+      "src/handler.py"
+    ],
+    "memory_type": "stale-api",
+    "channel": "terminal-cache",
+    "evidence": "stale API usage detected",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_hidden_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "stale",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 1003
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "release_tier": "public",
+    "repo": "test-org/repo-004"
+  },
+  {
+    "sequence_id": "mt-v5-test-005",
+    "repo_url": "https://github.com/test-org/repo-005",
+    "repo_commit": "mno345pqr678",
+    "repo_license": "MIT",
+    "task_type": "optimization",
+    "prompt_hash": "hash005",
+    "files": [
+      "src/engine.py",
+      "benchmarks/bench.py"
+    ],
+    "memory_type": "stale-api",
+    "channel": "wrapper-patch",
+    "evidence": "stale API usage detected",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_hidden_1",
+      "test_hidden_2"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "stale",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 1004
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "release_tier": "public",
+    "repo": "test-org/repo-005"
+  },
+  {
+    "sequence_id": "mt-v5-test-006",
+    "repo_url": "https://github.com/test-org/repo-006",
+    "repo_commit": "pqr678stu901",
+    "repo_license": "MIT",
+    "task_type": "bugfix",
+    "prompt_hash": "hash006",
+    "files": [
+      "src/api.py",
+      "tests/test_api.py"
+    ],
+    "memory_type": "stale-security",
+    "channel": "scratchpad",
+    "evidence": "stale security pattern detected",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_hidden_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "stale",
+    "bad_label": "unlabeled",
+    "security_label": "unsafe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 2000
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "release_tier": "sanitized",
+    "repo": "test-org/repo-006"
+  },
+  {
+    "sequence_id": "mt-v5-test-007",
+    "repo_url": "https://github.com/test-org/repo-007",
+    "repo_commit": "stu901vwx234",
+    "repo_license": "Apache-2.0",
+    "task_type": "feature",
+    "prompt_hash": "hash007",
+    "files": [
+      "src/client.py"
+    ],
+    "memory_type": "stale-security",
+    "channel": "memory-store",
+    "evidence": "stale security pattern detected",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_hidden_1",
+      "test_hidden_2"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "stale",
+    "bad_label": "unlabeled",
+    "security_label": "unsafe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 2001
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "release_tier": "sanitized",
+    "repo": "test-org/repo-007"
+  },
+  {
+    "sequence_id": "mt-v5-test-008",
+    "repo_url": "https://github.com/test-org/repo-008",
+    "repo_commit": "vwx234yza567",
+    "repo_license": "MIT",
+    "task_type": "refactor",
+    "prompt_hash": "hash008",
+    "files": [
+      "src/deprecated.py"
+    ],
+    "memory_type": "hidden-channel",
+    "channel": "conversation",
+    "evidence": "hidden channel detected",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_hidden_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 2002
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "release_tier": "twin",
+    "repo": "test-org/repo-008"
+  },
+  {
+    "sequence_id": "mt-v5-test-009",
+    "repo_url": "https://github.com/test-org/repo-009",
+    "repo_commit": "yza567bcd890",
+    "repo_license": "BSD",
+    "task_type": "bugfix",
+    "prompt_hash": "hash009",
+    "files": [
+      "src/wrapper.py",
+      "tests/test_wrapper.py"
+    ],
+    "memory_type": "hidden-channel",
+    "channel": "tool-log",
+    "evidence": "hidden channel detected",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_hidden_1",
+      "test_hidden_2",
+      "test_hidden_3"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 2003
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "release_tier": "twin",
+    "repo": "test-org/repo-009"
+  },
+  {
+    "sequence_id": "mt-v5-test-010",
+    "repo_url": "https://github.com/test-org/repo-010",
+    "repo_commit": "bcd890efg123",
+    "repo_license": "MIT",
+    "task_type": "optimization",
+    "prompt_hash": "hash010",
+    "files": [
+      "src/cache.py"
+    ],
+    "memory_type": "in-scope",
+    "channel": "terminal-cache",
+    "evidence": "in-scope memory detected",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_hidden_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 2004
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "release_tier": "remote",
+    "repo": "test-org/repo-010"
+  },
+  {
+    "sequence_id": "mt-v5-test-011",
+    "repo_url": "https://github.com/test-org/repo-011",
+    "repo_commit": "commit011",
+    "repo_license": "MIT",
+    "task_type": "bugfix",
+    "prompt_hash": "hash011",
+    "files": [
+      "src/module_11.py"
+    ],
+    "memory_type": "cross-repo",
+    "channel": "wrapper-patch",
+    "release_tier": "public",
+    "evidence": "cross-repo evidence",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 3000
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "repo": "test-org/repo-011"
+  },
+  {
+    "sequence_id": "mt-v5-test-012",
+    "repo_url": "https://github.com/test-org/repo-012",
+    "repo_commit": "commit012",
+    "repo_license": "MIT",
+    "task_type": "feature",
+    "prompt_hash": "hash012",
+    "files": [
+      "src/module_12.py"
+    ],
+    "memory_type": "cross-repo",
+    "channel": "scratchpad",
+    "release_tier": "sanitized",
+    "evidence": "cross-repo evidence",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 3001
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "repo": "test-org/repo-012"
+  },
+  {
+    "sequence_id": "mt-v5-test-013",
+    "repo_url": "https://github.com/test-org/repo-013",
+    "repo_commit": "commit013",
+    "repo_license": "MIT",
+    "task_type": "refactor",
+    "prompt_hash": "hash013",
+    "files": [
+      "src/module_13.py"
+    ],
+    "memory_type": "stale-api",
+    "channel": "memory-store",
+    "release_tier": "twin",
+    "evidence": "stale-api evidence",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 3002
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "repo": "test-org/repo-013"
+  },
+  {
+    "sequence_id": "mt-v5-test-014",
+    "repo_url": "https://github.com/test-org/repo-014",
+    "repo_commit": "commit014",
+    "repo_license": "MIT",
+    "task_type": "optimization",
+    "prompt_hash": "hash014",
+    "files": [
+      "src/module_14.py"
+    ],
+    "memory_type": "stale-api",
+    "channel": "conversation",
+    "release_tier": "remote",
+    "evidence": "stale-api evidence",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 3003
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "repo": "test-org/repo-014"
+  },
+  {
+    "sequence_id": "mt-v5-test-015",
+    "repo_url": "https://github.com/test-org/repo-015",
+    "repo_commit": "commit015",
+    "repo_license": "MIT",
+    "task_type": "bugfix",
+    "prompt_hash": "hash015",
+    "files": [
+      "src/module_15.py"
+    ],
+    "memory_type": "stale-security",
+    "channel": "tool-log",
+    "release_tier": "public",
+    "evidence": "stale-security evidence",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 3004
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "repo": "test-org/repo-015"
+  },
+  {
+    "sequence_id": "mt-v5-test-016",
+    "repo_url": "https://github.com/test-org/repo-016",
+    "repo_commit": "commit016",
+    "repo_license": "MIT",
+    "task_type": "feature",
+    "prompt_hash": "hash016",
+    "files": [
+      "src/module_16.py"
+    ],
+    "memory_type": "stale-security",
+    "channel": "terminal-cache",
+    "release_tier": "sanitized",
+    "evidence": "stale-security evidence",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 3005
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "repo": "test-org/repo-016"
+  },
+  {
+    "sequence_id": "mt-v5-test-017",
+    "repo_url": "https://github.com/test-org/repo-017",
+    "repo_commit": "commit017",
+    "repo_license": "MIT",
+    "task_type": "refactor",
+    "prompt_hash": "hash017",
+    "files": [
+      "src/module_17.py"
+    ],
+    "memory_type": "hidden-channel",
+    "channel": "wrapper-patch",
+    "release_tier": "twin",
+    "evidence": "hidden-channel evidence",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 3006
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "repo": "test-org/repo-017"
+  },
+  {
+    "sequence_id": "mt-v5-test-018",
+    "repo_url": "https://github.com/test-org/repo-018",
+    "repo_commit": "commit018",
+    "repo_license": "MIT",
+    "task_type": "optimization",
+    "prompt_hash": "hash018",
+    "files": [
+      "src/module_18.py"
+    ],
+    "memory_type": "hidden-channel",
+    "channel": "scratchpad",
+    "release_tier": "remote",
+    "evidence": "hidden-channel evidence",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 3007
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "repo": "test-org/repo-018"
+  },
+  {
+    "sequence_id": "mt-v5-test-019",
+    "repo_url": "https://github.com/test-org/repo-019",
+    "repo_commit": "commit019",
+    "repo_license": "MIT",
+    "task_type": "bugfix",
+    "prompt_hash": "hash019",
+    "files": [
+      "src/module_19.py"
+    ],
+    "memory_type": "in-scope",
+    "channel": "memory-store",
+    "release_tier": "public",
+    "evidence": "in-scope evidence",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 3008
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "repo": "test-org/repo-019"
+  },
+  {
+    "sequence_id": "mt-v5-test-020",
+    "repo_url": "https://github.com/test-org/repo-020",
+    "repo_commit": "commit020",
+    "repo_license": "MIT",
+    "task_type": "feature",
+    "prompt_hash": "hash020",
+    "files": [
+      "src/module_20.py"
+    ],
+    "memory_type": "in-scope",
+    "channel": "conversation",
+    "release_tier": "sanitized",
+    "evidence": "in-scope evidence",
+    "oracle_type": "hidden-tests",
+    "tests": [
+      "test_1"
+    ],
+    "rules": "no-copy",
+    "policy": "standard",
+    "conditions": [
+      "clean",
+      "warm",
+      "delete-target"
+    ],
+    "placebo_match": "none",
+    "scope_label": "repo",
+    "staleness_label": "fresh",
+    "bad_label": "unlabeled",
+    "security_label": "safe",
+    "docker_image": "python:3.10",
+    "hashes": {
+      "timestamp": 3009
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "repo": "test-org/repo-020"
+  }
+]

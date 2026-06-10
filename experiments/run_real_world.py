@@ -127,8 +127,11 @@ def load_benchmark_sequences(
         assert isinstance(raw, list), f"Expected list or benchmark dict, got {type(raw)}"
         all_sequences = raw
 
-    # Filter for this benchmark
-    filtered = filter_sequences_by_benchmark(all_sequences, benchmark)
+    # Filter for this benchmark (only if no custom sequences path provided)
+    if sequences_path is None:
+        filtered = filter_sequences_by_benchmark(all_sequences, benchmark)
+    else:
+        filtered = all_sequences
 
     return filtered
 

@@ -1,0 +1,19 @@
+{
+  "system_prompt": "You are a helpful assistant that solves GitHub issues by understanding the problem, locating relevant files, and generating code fixes. You have access to tools for reading files, editing code, and running tests.",
+  "understand_issue": {
+    "prompt": "Given the following GitHub issue, explain the problem and what needs to be fixed:\n\nIssue: {issue_text}\n\nRepository: {repo_url}\n\nFiles mentioned: {files}\n\nProvide a clear understanding of the issue.",
+    "description": "Prompt for understanding the GitHub issue"
+  },
+  "locate_files": {
+    "prompt": "Based on the issue understanding: {understanding}\n\nWhich files need to be modified to fix this issue? Consider the repository structure and the nature of the problem.\n\nList the files that need changes.",
+    "description": "Prompt for locating relevant files"
+  },
+  "generate_fix": {
+    "prompt": "Generate a code fix for the following issue:\n\nIssue: {issue_text}\n\nUnderstanding: {understanding}\n\nRelevant files: {files}\n\nMemory context: {memory_context}\n\nProvide the fix as a code patch.",
+    "description": "Prompt for generating the fix code"
+  },
+  "create_pr": {
+    "prompt": "Create a pull request description for the following fix:\n\nFix: {fix_code}\n\nIssue: {issue_text}\n\nGenerate a clear PR title and description.",
+    "description": "Prompt for creating PR description"
+  }
+}

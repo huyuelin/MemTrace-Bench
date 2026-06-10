@@ -1,0 +1,1402 @@
+[
+  {
+    "sequence_id": "SWE-bench_clean_seq_0",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_1",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_2",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_3",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_4",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_5",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_6",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_7",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_8",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_9",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_10",
+    "bad_label": true,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_11",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_12",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_13",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_14",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_15",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_16",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_17",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_18",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_19",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_20",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_21",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_22",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_23",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_24",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_25",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_26",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_27",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_28",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_29",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_30",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_31",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_32",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_33",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_34",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_35",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_36",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_37",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_38",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_39",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_40",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_41",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_42",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_43",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_44",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_45",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_46",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_47",
+    "bad_label": true,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_48",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_49",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_50",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_51",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_52",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_53",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_54",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_55",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_56",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_57",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_58",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_59",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_60",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_61",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_62",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_63",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_64",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_65",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_66",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_67",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_68",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_69",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_70",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_71",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_72",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_73",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_74",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_75",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_76",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_77",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_78",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_79",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_80",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_81",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_82",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_83",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_84",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_85",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_86",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_87",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_88",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_89",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_90",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_91",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_92",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_93",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_94",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_95",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_96",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_97",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_98",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_99",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_100",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_101",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_102",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_103",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_104",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_105",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_106",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_107",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_108",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_109",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_110",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_111",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_112",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_113",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_114",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_115",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_116",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_117",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_118",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_119",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_120",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_121",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_122",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_123",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_124",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_125",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_126",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_127",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_128",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_129",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_130",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_131",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_132",
+    "bad_label": true,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_133",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_134",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_135",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_136",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_137",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_138",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_139",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_140",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_141",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_142",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_143",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_144",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_145",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_146",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_147",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_148",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_149",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_150",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_151",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_152",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_153",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_154",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_155",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_156",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_157",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_158",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_159",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_160",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_161",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_162",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_163",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_164",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_165",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_166",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_167",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_168",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_169",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_170",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_171",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_172",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_173",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_174",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_175",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_176",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_177",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_178",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_179",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_180",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_181",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_182",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_183",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_184",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_185",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_186",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_187",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_188",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_189",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_190",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_191",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_192",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_193",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_194",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_195",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_196",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_197",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_198",
+    "bad_label": false,
+    "pass_label": true,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  },
+  {
+    "sequence_id": "SWE-bench_clean_seq_199",
+    "bad_label": false,
+    "pass_label": false,
+    "benchmark": "SWE-bench",
+    "condition": "clean"
+  }
+]

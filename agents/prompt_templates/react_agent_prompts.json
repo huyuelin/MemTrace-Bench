@@ -1,0 +1,23 @@
+{
+  "system_prompt": "You are a ReAct (Reasoning + Acting) agent. You solve tasks by alternating between thinking (Thought), acting (Action), and observing (Observation). You have access to tools that you can call to gather information and take actions.",
+  "react_loop": {
+    "prompt": "Question: {question}\n\nMemory context: {memory_context}\n\nSolve the question using the ReAct format:\n\nThought 1: [your reasoning about what to do]\nAction 1: [tool name and input]\nObservation 1: [result of action]\n...\nThought N: [final reasoning]\nAction N: Finish[answer]\n\nBegin:",
+    "description": "Prompt for ReAct loop"
+  },
+  "thought": {
+    "prompt": "You are at step {step}. Question: {question}\n\nHistory:\n{history}\n\nMemory context: {memory_context}\n\nWhat should you think about next?",
+    "description": "Prompt for generating thought"
+  },
+  "action": {
+    "prompt": "Thought: {thought}\n\nBased on this thought, what action should you take? Choose from available tools: {tools}\n\nRespond in format: Action: [tool_name] [input]",
+    "description": "Prompt for deciding action"
+  },
+  "observation": {
+    "prompt": "Action taken: {action}\n\nProvide the observation/result of this action.",
+    "description": "Prompt for generating observation"
+  },
+  "answer": {
+    "prompt": "History:\n{history}\n\nBased on the history, provide the final answer to: {question}",
+    "description": "Prompt for generating final answer"
+  }
+}

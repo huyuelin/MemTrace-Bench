@@ -1,0 +1,10 @@
+name = "MemTrace"
+version = "0.1.0"
+defaultTargets = ["memtrace"]
+
+[[lean_lib]]
+name = "MemTrace"
+
+[[lean_exe]]
+name = "memtrace"
+root = "Main"

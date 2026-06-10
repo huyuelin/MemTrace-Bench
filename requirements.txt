@@ -1,0 +1,20 @@
+# Python dependencies for Memory Is a Hidden Dependency reproduction
+# Usage: pip install -r requirements.txt
+
+# Core data handling
+dataclasses-json>=0.5.7
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Statistics (optional, for Phase 6)
+# statsmodels>=0.14.0  # uncomment to enable mixed-effects models
+# pandas>=1.5.0      # uncomment to enable statistics
+
+# Visualization (optional, for Phase 3/7)
+matplotlib>=3.5.0
+
+# Lean compiler (optional, for Phase 5)
+# lean-interpreter>=0.1.0  # uncomment to enable Lean verification
+
+# Testing
+pytest>=7.0.0

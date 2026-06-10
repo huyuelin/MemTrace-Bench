@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccc}
+\toprule
+Channel & Naive & Store-only & Full instr. & Reference \\
+\midrule
+Memory store & 0.0 & 25.0 & 12.5 & 0.0 \\
+Conversation & 0.0 & 0.0 & 22.2 & 0.0 \\
+Tool logs & 0.0 & 0.0 & 16.7 & 20.0 \\
+Terminal/cache & 28.6 & 0.0 & 14.3 & 10.0 \\
+Wrapper prompt & 25.0 & 0.0 & 0.0 & 0.0 \\
+Cached summary & 14.3 & 50.0 & 0.0 & 0.0 \\
+Previous patch & 0.0 & 16.7 & 20.0 & 12.5 \\
+Scratchpad & 0.0 & 14.3 & 20.0 & 0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Covert channel stress test.}
+\label{tab:channels}
+\end{table}

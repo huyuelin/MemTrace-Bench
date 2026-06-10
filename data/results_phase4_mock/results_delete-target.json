@@ -1,0 +1,112 @@
+[
+  {
+    "condition": "delete-target",
+    "sequence_id": "github_00213_1ddca4e1",
+    "prompt_text": "Task: optimization\nFiles: src/module_0.py, src/module_1.py, src/module_2.py\nMemory context:\n",
+    "patch": "# Mock patch for prompt: Task: optimization\nFiles: src/module_0.py, src/mod...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [],
+    "deleted_memory": "github_00213_1ddca4e1-mem-001",
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "delete-target",
+    "sequence_id": "github_00059_2f5b9452",
+    "prompt_text": "Task: bugfix\nFiles: src/module_0.py, src/module_1.py, src/module_2.py\nMemory context:\n",
+    "patch": "# Mock patch for prompt: Task: bugfix\nFiles: src/module_0.py, src/module_1....",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [],
+    "deleted_memory": "github_00059_2f5b9452-mem-001",
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "delete-target",
+    "sequence_id": "github_00138_f93e814c",
+    "prompt_text": "Task: optimization\nFiles: src/module_0.py, src/module_1.py, src/module_2.py, src/module_3.py, src/module_4.py\nMemory context:\n",
+    "patch": "# Mock patch for prompt: Task: optimization\nFiles: src/module_0.py, src/mod...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [],
+    "deleted_memory": "github_00138_f93e814c-mem-001",
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "delete-target",
+    "sequence_id": "github_00540_f93e814c",
+    "prompt_text": "Task: bugfix\nFiles: src/module_0.py, src/module_1.py, src/module_2.py, src/module_3.py, src/module_4.py\nMemory context:\n",
+    "patch": "# Mock patch for prompt: Task: bugfix\nFiles: src/module_0.py, src/module_1....",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [],
+    "deleted_memory": "github_00540_f93e814c-mem-001",
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "delete-target",
+    "sequence_id": "github_00283_1296ad6d",
+    "prompt_text": "Task: optimization\nFiles: src/module_0.py, src/module_1.py, src/module_2.py\nMemory context:\n",
+    "patch": "# Mock patch for prompt: Task: optimization\nFiles: src/module_0.py, src/mod...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [],
+    "deleted_memory": "github_00283_1296ad6d-mem-001",
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "delete-target",
+    "sequence_id": "github_00586_02ec8b00",
+    "prompt_text": "Task: bugfix\nFiles: src/module_0.py, src/module_1.py, src/module_2.py\nMemory context:\n",
+    "patch": "# Mock patch for prompt: Task: bugfix\nFiles: src/module_0.py, src/module_1....",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [],
+    "deleted_memory": "github_00586_02ec8b00-mem-001",
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "delete-target",
+    "sequence_id": "github_00043_78cb3626",
+    "prompt_text": "Task: optimization\nFiles: src/module_0.py, src/module_1.py\nMemory context:\n",
+    "patch": "# Mock patch for prompt: Task: optimization\nFiles: src/module_0.py, src/mod...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [],
+    "deleted_memory": "github_00043_78cb3626-mem-001",
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "delete-target",
+    "sequence_id": "github_00030_4a9c5129",
+    "prompt_text": "Task: refactor\nFiles: src/module_0.py, src/module_1.py, src/module_2.py, src/module_3.py, src/module_4.py\nMemory context:\n",
+    "patch": "# Mock patch for prompt: Task: refactor\nFiles: src/module_0.py, src/module_...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [],
+    "deleted_memory": "github_00030_4a9c5129-mem-001",
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "delete-target",
+    "sequence_id": "github_00357_903bfb06",
+    "prompt_text": "Task: optimization\nFiles: src/module_0.py, src/module_1.py, src/module_2.py, src/module_3.py\nMemory context:\n",
+    "patch": "# Mock patch for prompt: Task: optimization\nFiles: src/module_0.py, src/mod...",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [],
+    "deleted_memory": "github_00357_903bfb06-mem-001",
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "delete-target",
+    "sequence_id": "github_00522_f93e814c",
+    "prompt_text": "Task: bugfix\nFiles: src/module_0.py, src/module_1.py\nMemory context:\n",
+    "patch": "# Mock patch for prompt: Task: bugfix\nFiles: src/module_0.py, src/module_1....",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [],
+    "deleted_memory": "github_00522_f93e814c-mem-001",
+    "memory_type": "cross-repo"
+  }
+]

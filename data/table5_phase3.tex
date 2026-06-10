@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{6pt}
+\begin{tabular}{lcccc}
+\toprule
+Channel & Naive & Store-only & Full instr. & Reference \\
+\midrule
+Memory store & 22.6 & 7.0 & 6.9 & 6.5 \
+Conversation & 19.3 & 18.4 & 7.4 & 6.9 \
+Tool logs & 24.9 & 23.8 & 8.0 & 7.5 \
+Terminal/cache & 21.8 & 20.9 & 7.8 & 7.2 \
+Wrapper prompt & 18.9 & 17.5 & 8.6 & 8.0 \
+Cached summary & 23.7 & 22.0 & 8.1 & 7.4 \
+Previous patch & 20.5 & 19.4 & 7.5 & 7.0 \
+Scratchpad & 18.1 & 17.0 & 9.8 & 9.2 \
+\bottomrule
+\end{tabular}
+\caption{Covert channel stress test. Phase 3 mock data.}
+\label{tab:channels}
+\end{table}

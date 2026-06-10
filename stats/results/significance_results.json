@@ -1,0 +1,13 @@
+{
+  "conditions": {
+    "warm": {
+      "p_value": 1.0,
+      "odds_ratio": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "significant": false
+    }
+  },
+  "overall_significance": {},
+  "effect_sizes": {}
+}

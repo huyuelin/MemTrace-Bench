@@ -1,0 +1,180 @@
+{
+  "benchmark_name": "MemTrace-Bench-Real",
+  "created_at": "2026-06-08",
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "train": [
+    {
+      "sequence_id": "github_00000_dcc0fc7b",
+      "repo_url": "https://github.com/github/gitignore",
+      "repo_commit": "dcc0fc7bc2b5ba480cf117ad1be31bafceeaff46",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_0",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    },
+    {
+      "sequence_id": "github_00001_47158447",
+      "repo_url": "https://github.com/google/clusterfuzz",
+      "repo_commit": "471584471f4b111f861c255be9978adcd308caa5",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_1",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    },
+    {
+      "sequence_id": "github_00002_f2f6a4ac",
+      "repo_url": "https://github.com/microsoft/vscode",
+      "repo_commit": "f2f6a4ac0f5ee6d945526398ba00725d023e9acb",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_2",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    }
+  ],
+  "val": [
+    {
+      "sequence_id": "github_00003_900ae094",
+      "repo_url": "https://github.com/facebook/react",
+      "repo_commit": "900ae094d85b11c67d53dd14af50a2bda5db4495",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_3",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    }
+  ],
+  "test": [
+    {
+      "sequence_id": "github_00004_c80693c5",
+      "repo_url": "https://github.com/numpy/numpy",
+      "repo_commit": "c80693c5c1052e9355fe1a1fc6b3f57dec24c89c",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_4",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "python -c 'import numpy; print(\"ok\")'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    }
+  ]
+}

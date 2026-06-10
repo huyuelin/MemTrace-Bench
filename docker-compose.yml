@@ -1,0 +1,113 @@
+# docker-compose.yml
+# Phase 8.2 of "Memory Is a Hidden Dependency" reproduction
+# Containerized deployment for experiment runner, optional API, and optional web UI.
+
+version: "3.9"
+
+# ── Volumes ────────────────────────────────────────────────────────────────────
+# data-vol  : raw traces, prompts, and preprocessed datasets
+# results-vol: experiment outputs, figures, and tables
+# ────────────────────────────────────────────────────────────────────────────────
+volumes:
+  data-vol:
+    driver: local
+  results-vol:
+    driver: local
+
+# ── Networks ───────────────────────────────────────────────────────────────────
+# internal network for service-to-service communication
+# ────────────────────────────────────────────────────────────────────────────────
+networks:
+  default:
+    name: memory-hidden-dep
+    driver: bridge
+
+# ── Services ───────────────────────────────────────────────────────────────────
+services:
+
+  # ── worker ───────────────────────────────────────────────────────────────────
+  # Primary service that runs experiments (trace collection, figure/table gen).
+  # Mounts data-vol and results-vol so experiments can read inputs and write
+  # outputs without polluting the host filesystem.
+  # ─────────────────────────────────────────────────────────────────────────────
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mhd-worker
+    restart: unless-stopped
+    environment:
+      # Python environment
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+      # Experiment config (override via .env or docker-compose.override.yml)
+      - MHD_DATA_DIR=/data
+      - MHD_RESULTS_DIR=/results
+      - MHD_EXPERIMENT_SEED=42
+      # LLM API keys (inject at runtime, never bake into image)
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+    volumes:
+      - data-vol:/data
+      - results-vol:/results
+      # Mount host source code for rapid iteration without rebuilding image
+      - ./core:/app/core:ro
+      - ./agents:/app/agents:ro
+      - ./scripts:/app/scripts:ro
+    command: ["python", "-m", "scripts.collect_react_traces"]
+    # Resource limits: prevent a single experiment from starving the host
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 8G
+        reservations:
+          cpus: "1"
+          memory: 2G
+
+  # ── api (optional) ──────────────────────────────────────────────────────────
+  # Lightweight FastAPI server that exposes experiment results as REST endpoints.
+  # Useful for programmatic access or feeding a dashboard.
+  # Disable by commenting out or setting `profiles: [disabled]` (Compose v1.29+).
+  # ─────────────────────────────────────────────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api   # assumed to exist or to be created later
+    container_name: mhd-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MHD_RESULTS_DIR=/results
+    volumes:
+      - results-vol:/results:ro
+    depends_on:
+      - worker
+    command: ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    profiles:
+      - optional   # enable with: docker compose --profile optional up
+
+  # ── web (optional) ──────────────────────────────────────────────────────────
+  # Simple static file server or Streamlit app for visualizing experiment results.
+  # Disable by default; enable with --profile optional.
+  # ─────────────────────────────────────────────────────────────────────────────
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web   # assumed to exist or to be created later
+    container_name: mhd-web
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    environment:
+      - MHD_API_URL=http://api:8000
+      - MHD_RESULTS_DIR=/results
+    volumes:
+      - results-vol:/results:ro
+    depends_on:
+      - api
+    command: ["streamlit", "run", "web/app.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
+    profiles:
+      - optional   # enable with: docker compose --profile optional up

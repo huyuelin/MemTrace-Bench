@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter notebooks (not needed for reproduction)
+*.ipynb
+.ipynb_checkpoints/
+
+# Data files (too large to embed in image; mount at runtime)
+data/
+*.csv
+*.json
+*.pkl
+*.pth
+*.pt
+
+# Experiment outputs and logs
+experiments/
+logs/
+*.log
+
+# Figures (generated at runtime)
+figures/
+*.png
+*.pdf
+*.svg
+
+# Lean (optional, skip if not installing Lean)
+lean/*/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

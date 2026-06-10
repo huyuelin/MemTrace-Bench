@@ -1,0 +1,87 @@
+# Experiment configuration for Memory Is a Hidden Dependency reproduction
+# This file defines experiment parameters, baseline system configs, and data storage paths.
+
+experiment:
+  # Reproducibility
+  random_seed: 42
+  num_seeds: 10
+  
+  # Model configuration
+  model:
+    name: "gpt-4-turbo-preview"
+    temperature: 0.7
+    top_k: 50
+    max_tokens: 2048
+  
+  # Agent configuration
+  agent:
+    type: "github"  # github, swe-bench, react, mock
+    max_steps: 10
+    timeout: 300  # seconds
+  
+  # Conditions to run (comment/uncomment as needed)
+  conditions:
+    - clean
+    - warm
+    - delete-target
+    # - transplant
+    # - matched-placebo
+    # - semantic-placebo
+    # - token-padding
+    # - prelude-only
+    # - dose-response-1
+    # - dose-response-2
+    # - dose-response-4
+    # - rank-shuffle
+    # - position-shuffle
+    # - reference-mediator
+  
+  # Baselines to evaluate
+  baselines:
+    - memgpt
+    - mem0
+    - zep
+    - a-mem
+    # - reflexion
+    # - workflow
+    # - conversation
+    # - memorybank
+    # - langmem
+    # - current-repo-rag
+    # - time-aware-rag
+    # - tool-verified-rag
+    # - naive-vector
+
+# Baseline system configurations
+baseline_configs:
+  memgpt:
+    memory_size: 100
+    retrieval_top_k: 5
+  mem0:
+    embedding_model: "text-embedding-3-small"
+    vector_db: "chromadb"
+  zep:
+    api_url: "https://api.getzep.com"
+    memory_window: 10
+  a-mem:
+    knowledge_graph: true
+    reasoning_model: "gpt-4"
+
+# Data storage paths
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  results_dir: "data/results"
+  benchmark_name: "benchmark_v1"
+
+# Output configuration
+output:
+  tables_dir: "data/results/tables"
+  figures_dir: "data/results/figures"
+  reports_dir: "data/results"
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "logs/experiment.log"
+  console: true

@@ -1,0 +1,345 @@
+{
+  "benchmark_name": "MemTrace-Bench-Real",
+  "created_at": "2026-06-08",
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "train": [
+    {
+      "sequence_id": "github_00000_133c57af",
+      "repo_url": "https://github.com/github/gitignore",
+      "repo_commit": "133c57afa50921139476d0ba2eadefb679155d99",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_0",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    },
+    {
+      "sequence_id": "github_00001_d9bf6c86",
+      "repo_url": "https://github.com/google/clusterfuzz",
+      "repo_commit": "d9bf6c8657e842ffd608f6a84e80b12fee0fc48d",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_1",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    },
+    {
+      "sequence_id": "github_00002_f8edf625",
+      "repo_url": "https://github.com/microsoft/vscode",
+      "repo_commit": "f8edf625b8b5b7fd9717c31ec834c8e8a062f885",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_2",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    },
+    {
+      "sequence_id": "github_00003_d5b40900",
+      "repo_url": "https://github.com/facebook/react",
+      "repo_commit": "d5b409002b425d2242da0d9bacfad68278856400",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_3",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    },
+    {
+      "sequence_id": "github_00004_c80693c5",
+      "repo_url": "https://github.com/numpy/numpy",
+      "repo_commit": "c80693c5c1052e9355fe1a1fc6b3f57dec24c89c",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_4",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "python -c 'import numpy; print(\"ok\")'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    },
+    {
+      "sequence_id": "github_00005_b286d987",
+      "repo_url": "https://github.com/python/cpython",
+      "repo_commit": "b286d98783db0c1169f558b4c6d7512cb3264274",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_5",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    },
+    {
+      "sequence_id": "github_00006_45498711",
+      "repo_url": "https://github.com/torvalds/linux",
+      "repo_commit": "4549871118cf616eecdd2d939f78e3b9e1dddc48",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_6",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    }
+  ],
+  "val": [
+    {
+      "sequence_id": "github_00007_72237f94",
+      "repo_url": "https://github.com/golang/go",
+      "repo_commit": "72237f94a4aae8f9269717f45fdc334b5f525b7c",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_7",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    }
+  ],
+  "test": [
+    {
+      "sequence_id": "github_00008_f3ef3bd8",
+      "repo_url": "https://github.com/rust-lang/rust",
+      "repo_commit": "f3ef3bd882dd24a275a60701a67c3bb330edd8c1",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_8",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    },
+    {
+      "sequence_id": "github_00009_622c5eb5",
+      "repo_url": "https://github.com/tensorflow/tensorflow",
+      "repo_commit": "622c5eb5c66d106f0d7d0785d5c45aad018759d1",
+      "repo_license": "unknown",
+      "task_type": "bugfix",
+      "prompt_hash": "prompt_9",
+      "files": [
+        "README.md"
+      ],
+      "memory_type": "in-scope",
+      "channel": "memory-store",
+      "evidence": "test",
+      "oracle_type": "exact_match",
+      "tests": [
+        "echo 'no tests'"
+      ],
+      "rules": [],
+      "policy": "allow-all",
+      "conditions": [],
+      "placebo_match": false,
+      "scope_label": "in-scope",
+      "staleness_label": "fresh",
+      "bad_label": false,
+      "security_label": "safe",
+      "docker_image": null,
+      "hashes": {
+        "timestamp": 0
+      },
+      "seeds": [
+        42
+      ]
+    }
+  ]
+}

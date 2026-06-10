@@ -17,6 +17,7 @@ Usage:
 import logging
 import time
 import os
+import requests
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -35,117 +36,120 @@ class RequestMetrics:
 
 
 # ─────────────────── Provider Configuration ───────────────────
+# 
+# To use real LLM API calls, override these via environment variables:
+#   export OPENAI_API_KEY=sk-...
+#   export OPENAI_BASE_URL=https://api.openai.com/v1
+#   export HUNYUAN_API_KEY=...
+#   export HUNYUAN_BASE_URL=http://hunyuanapi.woa.com
+#   export QWEN_API_KEY=...
+#   export QWEN_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
 
-# Hunyuan API (OpenAI-compatible endpoint)
+OPENAI_CONFIG = {
+    "api_key": os.environ.get("OPENAI_API_KEY", ""),
+    "base_url": os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1"),
+    "model": os.environ.get("OPENAI_MODEL", "gpt-4o"),
+}
+
 HUNYUAN_CONFIG = {
     "api_key": os.environ.get("HUNYUAN_API_KEY", "dMaIDnRH4iT7Tc0u8Ua8nBiv2yhNanl9"),
-    "base_url": "http://hunyuanapi.woa.com",
-    "model": "hunyuan-2.0-instruct-20251111",
+    "base_url": os.environ.get("HUNYUAN_BASE_URL", "http://hunyuanapi.woa.com/openapi"),
+    "model": os.environ.get("HUNYUAN_MODEL", "hunyuan-2.0-instruct-20251111"),
 }
 
-# Qwen DashScope API (OpenAI-compatible endpoint)
 QWEN_CONFIG = {
     "api_key": os.environ.get("QWEN_API_KEY", "sk-d5a16bb38a7646039f5715973761dd3f"),
-    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
-    "model": "qwen-plus-latest",
+    "base_url": os.environ.get("QWEN_BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1"),
+    "model": os.environ.get("QWEN_MODEL", "qwen-plus-latest"),
 }
 
 
-class OpenAIClientWrapper:
-    """Wrapper around openai.OpenAI that matches HunyuanApiClient interface."""
+class RequestsClientWrapper:
+    """HTTP client using `requests` - works with any OpenAI-compatible endpoint.
+    
+    Works with http:// (insecure) URLs for local testing.
+    """
 
     def __init__(self, api_key: str, base_url: str, model: str, **kwargs):
-        try:
-            from openai import OpenAI
-        except ImportError:
-            raise ImportError(
-                "openai package not installed. Install with: pip install openai"
-            )
-        self.client = OpenAI(api_key=api_key, base_url=base_url)
+        self.api_key = api_key
+        self.base_url = base_url.rstrip("/")
         self.model = model
         self.endpoint = base_url
+        self._session = requests.Session()
 
     def chat(self, messages: List[Dict], stream: bool = False, **kwargs):
-        """OpenAI-compatible chat interface.
-
-        Returns:
-            Tuple of (response_dict, metrics_object)
-        """
+        """Call /v1/chat/completions, return (response_dict, metrics)."""
         start = time.monotonic()
+        url = f"{self.base_url}/chat/completions"
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {self.api_key}",
+        }
+        payload = {
+            "model": self.model,
+            "messages": messages,
+            "stream": False,  # Always non-streaming
+        }
         try:
-            if stream:
-                # Streaming mode: collect chunks
-                collected = []
-                for chunk in self.client.chat.completions.create(
-                    model=self.model,
-                    messages=messages,
-                    stream=True,
-                ):
-                    collected.append(chunk)
-                # Combine chunks into full response
-                content = "".join(
-                    c.choices[0].delta.content or ""
-                    for c in collected
-                    if c.choices and c.choices[0].delta.content
-                )
-                resp = {
-                    "choices": [{"message": {"content": content, "role": "assistant"}}],
-                }
-            else:
-                # Non-streaming mode
-                completion = self.client.chat.completions.create(
-                    model=self.model,
-                    messages=messages,
-                    stream=False,
-                )
-                resp = {
-                    "choices": [
-                        {
-                            "message": {
-                                "content": completion.choices[0].message.content,
-                                "role": completion.choices[0].message.role,
-                            }
-                        }
-                    ],
-                }
-
+            resp = self._session.post(
+                url, headers=headers, json=payload, timeout=120
+            )
+            resp.raise_for_status()
+            data = resp.json()
             latency = time.monotonic() - start
-            metrics = type("Metrics", (), {"status_code": 200, "latency": latency})()
-            return resp, metrics
-
-        except Exception as e:
+            metrics = RequestMetrics(
+                success=True,
+                latency_s=latency,
+                attempt=1,
+                status_code=resp.status_code,
+                error=None,
+                provider=self.model,
+            )
+            return data, metrics
+        except requests.exceptions.RequestException as e:
             latency = time.monotonic() - start
-            status_code = getattr(e, "status_code", None)
-            raise type(e)(f"OpenAI API error (status={status_code}): {e}") from e
+            status_code = None
+            if hasattr(e, "response") and e.response is not None:
+                status_code = e.response.status_code
+            # Re-raise with descriptive message
+            raise RuntimeError(
+                f"HTTP error (status={status_code}): {e}"
+            ) from e
 
 
 def _create_hunyuan_client(timeout: int = 120, max_retries: int = 3, **extra_kwargs):
-    """Create Hunyuan client (OpenAI-compatible)."""
     config = HUNYUAN_CONFIG
-    client = OpenAIClientWrapper(
+    return RequestsClientWrapper(
         api_key=config["api_key"],
         base_url=config["base_url"],
         model=config["model"],
     )
-    return client
 
 
 def _create_qwen_client(timeout: int = 120, max_retries: int = 3, **extra_kwargs):
-    """Create Qwen client (OpenAI-compatible)."""
     config = QWEN_CONFIG
-    client = OpenAIClientWrapper(
+    return RequestsClientWrapper(
         api_key=config["api_key"],
         base_url=config["base_url"],
         model=config["model"],
     )
-    return client
+
+
+def _create_openai_client(timeout: int = 120, max_retries: int = 3, **extra_kwargs):
+    config = OPENAI_CONFIG
+    if not config["api_key"]:
+        raise ValueError(
+            "OPENAI_API_KEY not set. Set via env var or pass api_key kwarg."
+        )
+    return RequestsClientWrapper(
+        api_key=config["api_key"],
+        base_url=config["base_url"],
+        model=config["model"],
+    )
 
 
 class ResilientLLMClient:
-    """Dual-provider LLM client with automatic failover.
-
-    Switches between Hunyuan and Qwen on failure.
-    """
+    """Multi-provider LLM client with automatic failover."""
 
     def __init__(
         self,
@@ -154,6 +158,7 @@ class ResilientLLMClient:
         timeout: int = 120,
         max_retries_per_provider: int = 3,
         primary: str = "hunyuan",
+        openai_kwargs: Optional[Dict[str, Any]] = None,
         hunyuan_kwargs: Optional[Dict[str, Any]] = None,
         qwen_kwargs: Optional[Dict[str, Any]] = None,
     ) -> None:
@@ -162,56 +167,50 @@ class ResilientLLMClient:
         self.timeout = timeout
         self.max_retries_per_provider = max_retries_per_provider
 
-        # Lazy client creation
+        self._openai = None
         self._hunyuan = None
         self._qwen = None
+        self._openai_kwargs = openai_kwargs or {}
         self._hunyuan_kwargs = hunyuan_kwargs or {}
         self._qwen_kwargs = qwen_kwargs or {}
 
-        # Stats
         self.total_calls = 0
         self.total_switches = 0
         self.provider_stats = {
+            "openai": {"ok": 0, "fail": 0},
             "hunyuan": {"ok": 0, "fail": 0},
             "qwen": {"ok": 0, "fail": 0},
         }
 
-        # Provider order
-        if primary == "qwen":
-            self._provider_order = ["qwen", "hunyuan"]
+        providers = ["openai", "hunyuan", "qwen"]
+        if primary in providers:
+            providers.remove(primary)
+            self._provider_order = [primary] + providers
         else:
-            self._provider_order = ["hunyuan", "qwen"]
+            self._provider_order = [primary] + [p for p in providers if p != primary]
 
-        # Compat: expose .model attribute
-        self.model = HUNYUAN_CONFIG["model"] if primary != "qwen" else QWEN_CONFIG["model"]
+        if primary == "openai":
+            self.model = OPENAI_CONFIG["model"]
+        elif primary == "hunyuan":
+            self.model = HUNYUAN_CONFIG["model"]
+        else:
+            self.model = QWEN_CONFIG["model"]
 
     def _get_client(self, name: str):
-        """Get or lazily create client for provider."""
-        if name == "hunyuan":
+        if name == "openai":
+            if self._openai is None:
+                self._openai = _create_openai_client(**self._openai_kwargs)
+                LOGGER.info("ResilientLLM: OpenAI client created")
+            return self._openai
+        elif name == "hunyuan":
             if self._hunyuan is None:
-                self._hunyuan = _create_hunyuan_client(
-                    timeout=self.timeout,
-                    max_retries=self.max_retries_per_provider,
-                    **self._hunyuan_kwargs,
-                )
-                LOGGER.info(
-                    "ResilientLLM: Hunyuan client created (endpoint=%s, model=%s)",
-                    self._hunyuan.endpoint,
-                    self._hunyuan.model,
-                )
+                self._hunyuan = _create_hunyuan_client(**self._hunyuan_kwargs)
+                LOGGER.info("ResilientLLM: Hunyuan client created")
             return self._hunyuan
         else:
             if self._qwen is None:
-                self._qwen = _create_qwen_client(
-                    timeout=self.timeout,
-                    max_retries=self.max_retries_per_provider,
-                    **self._qwen_kwargs,
-                )
-                LOGGER.info(
-                    "ResilientLLM: Qwen client created (endpoint=%s, model=%s)",
-                    self._qwen.endpoint,
-                    self._qwen.model,
-                )
+                self._qwen = _create_qwen_client(**self._qwen_kwargs)
+                LOGGER.info("ResilientLLM: Qwen client created")
             return self._qwen
 
     def chat(
@@ -221,106 +220,61 @@ class ResilientLLMClient:
         request_overrides: Optional[Dict[str, Any]] = None,
         debug: bool = False,
     ) -> Tuple[Dict[str, Any], RequestMetrics]:
-        """Send chat request with automatic provider failover.
-
-        Returns:
-            Tuple of (response_dict, RequestMetrics)
-        """
         self.total_calls += 1
         start_ts = time.monotonic()
-        last_error: Optional[Exception] = None
-        last_provider = ""
+        last_error = None
 
         for switch_round in range(self.max_provider_switches):
             provider_name = self._provider_order[switch_round % len(self._provider_order)]
 
-            # Sleep before switching (not on first round)
             if switch_round > 0:
                 LOGGER.info(
-                    "ResilientLLM: switching to %s (round %d/%d), sleep %.1fs",
-                    provider_name,
-                    switch_round + 1,
-                    self.max_provider_switches,
-                    self.switch_sleep,
+                    "ResilientLLM: switching to %s (round %d/%d)",
+                    provider_name, switch_round + 1, self.max_provider_switches,
                 )
                 self.total_switches += 1
                 time.sleep(self.switch_sleep)
 
             client = self._get_client(provider_name)
-            last_provider = provider_name
-
             try:
-                kwargs = {
-                    "messages": messages,
-                    "stream": stream,
-                    "debug": debug,
-                }
-                if request_overrides:
-                    kwargs["request_overrides"] = request_overrides
-                resp, inner_metrics = client.chat(**kwargs)
-
-                # Success
+                resp, inner_metrics = client.chat(
+                    messages=messages, stream=False,
+                )
                 latency = time.monotonic() - start_ts
                 self.provider_stats[provider_name]["ok"] += 1
-
                 metrics = RequestMetrics(
                     success=True,
                     latency_s=latency,
                     attempt=switch_round + 1,
-                    status_code=(
-                        inner_metrics.status_code
-                        if hasattr(inner_metrics, "status_code")
-                        else 200
-                    ),
+                    status_code=getattr(inner_metrics, "status_code", 200),
                     error=None,
                     provider=provider_name,
                 )
-
                 if switch_round > 0:
                     LOGGER.info(
-                        "ResilientLLM: success via %s after %d switch(es), latency=%.1fs",
-                        provider_name,
-                        switch_round,
-                        latency,
+                        "ResilientLLM: success via %s after %d switch(es)",
+                        provider_name, switch_round,
                     )
-
                 return resp, metrics
-
             except Exception as e:
                 last_error = e
                 self.provider_stats[provider_name]["fail"] += 1
-
-                error_str = str(e)[:200]
-                status = getattr(e, "status_code", None)
                 LOGGER.warning(
-                    "ResilientLLM: %s failed (round %d/%d, status=%s): %s",
-                    provider_name,
-                    switch_round + 1,
-                    self.max_provider_switches,
-                    status,
-                    error_str,
+                    "ResilientLLM: %s failed (round %d/%d): %s",
+                    provider_name, switch_round + 1,
+                    self.max_provider_switches, str(e)[:200],
                 )
 
-        # All rounds failed
         latency = time.monotonic() - start_ts
         LOGGER.error(
-            "ResilientLLM: ALL %d rounds failed (%.1fs total). "
-            "stats: hunyuan=%s, qwen=%s. Last error: %s",
-            self.max_provider_switches,
-            latency,
-            self.provider_stats["hunyuan"],
-            self.provider_stats["qwen"],
-            str(last_error)[:300],
+            "ResilientLLM: ALL %d rounds failed. Last: %s",
+            self.max_provider_switches, str(last_error)[:300],
         )
-
-        # Re-raise last error
-        raise last_error  # type: ignore
+        raise RuntimeError(f"All providers failed: {last_error}") from last_error
 
     def get_stats_summary(self) -> str:
-        """Return human-readable stats summary."""
         return (
-            f"ResilientLLM stats: calls={self.total_calls}, "
+            f"calls={self.total_calls}, "
             f"switches={self.total_switches}, "
-            f"hunyuan={self.provider_stats['hunyuan']}, "
-            f"qwen={self.provider_stats['qwen']}"
+            f"hunyuan={self.provider_stats['hunyuan']}"
         )

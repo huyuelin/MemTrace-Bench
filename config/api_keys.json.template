@@ -1,0 +1,28 @@
+{
+  "_comment": "API keys template for Memory Is a Hidden Dependency reproduction.",
+  "_instructions": "Copy this file to api_keys.json and fill in your actual API keys. Do NOT commit api_keys.json to version control.",
+  "openai": {
+    "api_key": "sk-YOUR_OPENAI_KEY_HERE",
+    "organization": null,
+    "models": {
+      "gpt-4": "gpt-4-turbo-preview",
+      "gpt-3.5": "gpt-3.5-turbo"
+    }
+  },
+  "anthropic": {
+    "api_key": "sk-ant-YOUR_ANTHROPIC_KEY_HERE",
+    "models": {
+      "claude-2": "claude-2.1",
+      "claude-instant": "claude-instant-1.2"
+    }
+  },
+  "huggingface": {
+    "token": "hf_YOUR_HF_TOKEN_HERE",
+    "model_cache": "/paths/to/model/cache"
+  },
+  "github": {
+    "token": "ghp_YOUR_GITHUB_TOKEN_HERE",
+    "api_url": "https://api.github.com"
+  },
+  "_note": "After filling in your keys, run: bash scripts/setup_api_keys.sh"
+}

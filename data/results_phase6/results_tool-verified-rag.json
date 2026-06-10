@@ -1,0 +1,2402 @@
+[
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-001",
+    "prompt_text": "Task: bugfix\nFiles: src/main.py, tests/test_main.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-001-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-001",
+    "prompt_text": "Task: bugfix\nFiles: src/main.py, tests/test_main.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-001-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-001",
+    "prompt_text": "Task: bugfix\nFiles: src/main.py, tests/test_main.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-001-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-001",
+    "prompt_text": "Task: bugfix\nFiles: src/main.py, tests/test_main.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-001-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-001",
+    "prompt_text": "Task: bugfix\nFiles: src/main.py, tests/test_main.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-001-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-001",
+    "prompt_text": "Task: bugfix\nFiles: src/main.py, tests/test_main.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-001-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-001",
+    "prompt_text": "Task: bugfix\nFiles: src/main.py, tests/test_main.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-001-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-001",
+    "prompt_text": "Task: bugfix\nFiles: src/main.py, tests/test_main.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-001-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-001",
+    "prompt_text": "Task: bugfix\nFiles: src/main.py, tests/test_main.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-001-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-001",
+    "prompt_text": "Task: bugfix\nFiles: src/main.py, tests/test_main.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-001-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-002",
+    "prompt_text": "Task: feature\nFiles: src/utils.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-002-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-002",
+    "prompt_text": "Task: feature\nFiles: src/utils.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-002-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-002",
+    "prompt_text": "Task: feature\nFiles: src/utils.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-002-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-002",
+    "prompt_text": "Task: feature\nFiles: src/utils.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-002-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-002",
+    "prompt_text": "Task: feature\nFiles: src/utils.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-002-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-002",
+    "prompt_text": "Task: feature\nFiles: src/utils.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-002-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-002",
+    "prompt_text": "Task: feature\nFiles: src/utils.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-002-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-002",
+    "prompt_text": "Task: feature\nFiles: src/utils.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-002-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-002",
+    "prompt_text": "Task: feature\nFiles: src/utils.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-002-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-002",
+    "prompt_text": "Task: feature\nFiles: src/utils.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-002-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-003",
+    "prompt_text": "Task: refactor\nFiles: src/core.py, tests/test_core.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-003-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-003",
+    "prompt_text": "Task: refactor\nFiles: src/core.py, tests/test_core.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-003-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-003",
+    "prompt_text": "Task: refactor\nFiles: src/core.py, tests/test_core.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-003-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-003",
+    "prompt_text": "Task: refactor\nFiles: src/core.py, tests/test_core.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-003-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-003",
+    "prompt_text": "Task: refactor\nFiles: src/core.py, tests/test_core.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-003-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-003",
+    "prompt_text": "Task: refactor\nFiles: src/core.py, tests/test_core.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-003-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-003",
+    "prompt_text": "Task: refactor\nFiles: src/core.py, tests/test_core.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-003-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-003",
+    "prompt_text": "Task: refactor\nFiles: src/core.py, tests/test_core.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-003-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-003",
+    "prompt_text": "Task: refactor\nFiles: src/core.py, tests/test_core.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-003-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-003",
+    "prompt_text": "Task: refactor\nFiles: src/core.py, tests/test_core.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-003-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-004",
+    "prompt_text": "Task: bugfix\nFiles: src/handler.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-004-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-004",
+    "prompt_text": "Task: bugfix\nFiles: src/handler.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-004-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-004",
+    "prompt_text": "Task: bugfix\nFiles: src/handler.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-004-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-004",
+    "prompt_text": "Task: bugfix\nFiles: src/handler.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-004-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-004",
+    "prompt_text": "Task: bugfix\nFiles: src/handler.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-004-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-004",
+    "prompt_text": "Task: bugfix\nFiles: src/handler.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-004-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-004",
+    "prompt_text": "Task: bugfix\nFiles: src/handler.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-004-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-004",
+    "prompt_text": "Task: bugfix\nFiles: src/handler.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-004-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-004",
+    "prompt_text": "Task: bugfix\nFiles: src/handler.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-004-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-004",
+    "prompt_text": "Task: bugfix\nFiles: src/handler.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-004-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-005",
+    "prompt_text": "Task: optimization\nFiles: src/engine.py, benchmarks/bench.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-005-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-005",
+    "prompt_text": "Task: optimization\nFiles: src/engine.py, benchmarks/bench.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-005-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-005",
+    "prompt_text": "Task: optimization\nFiles: src/engine.py, benchmarks/bench.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-005-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-005",
+    "prompt_text": "Task: optimization\nFiles: src/engine.py, benchmarks/bench.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-005-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-005",
+    "prompt_text": "Task: optimization\nFiles: src/engine.py, benchmarks/bench.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-005-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-005",
+    "prompt_text": "Task: optimization\nFiles: src/engine.py, benchmarks/bench.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-005-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-005",
+    "prompt_text": "Task: optimization\nFiles: src/engine.py, benchmarks/bench.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-005-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-005",
+    "prompt_text": "Task: optimization\nFiles: src/engine.py, benchmarks/bench.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-005-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-005",
+    "prompt_text": "Task: optimization\nFiles: src/engine.py, benchmarks/bench.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-005-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-005",
+    "prompt_text": "Task: optimization\nFiles: src/engine.py, benchmarks/bench.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-005-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-006",
+    "prompt_text": "Task: bugfix\nFiles: src/api.py, tests/test_api.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-006-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-006",
+    "prompt_text": "Task: bugfix\nFiles: src/api.py, tests/test_api.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-006-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-006",
+    "prompt_text": "Task: bugfix\nFiles: src/api.py, tests/test_api.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-006-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-006",
+    "prompt_text": "Task: bugfix\nFiles: src/api.py, tests/test_api.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-006-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-006",
+    "prompt_text": "Task: bugfix\nFiles: src/api.py, tests/test_api.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-006-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-006",
+    "prompt_text": "Task: bugfix\nFiles: src/api.py, tests/test_api.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-006-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-006",
+    "prompt_text": "Task: bugfix\nFiles: src/api.py, tests/test_api.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-006-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-006",
+    "prompt_text": "Task: bugfix\nFiles: src/api.py, tests/test_api.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-006-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-006",
+    "prompt_text": "Task: bugfix\nFiles: src/api.py, tests/test_api.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-006-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-006",
+    "prompt_text": "Task: bugfix\nFiles: src/api.py, tests/test_api.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-006-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-007",
+    "prompt_text": "Task: feature\nFiles: src/client.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-007-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-007",
+    "prompt_text": "Task: feature\nFiles: src/client.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-007-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-007",
+    "prompt_text": "Task: feature\nFiles: src/client.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-007-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-007",
+    "prompt_text": "Task: feature\nFiles: src/client.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-007-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-007",
+    "prompt_text": "Task: feature\nFiles: src/client.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-007-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-007",
+    "prompt_text": "Task: feature\nFiles: src/client.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-007-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-007",
+    "prompt_text": "Task: feature\nFiles: src/client.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-007-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-007",
+    "prompt_text": "Task: feature\nFiles: src/client.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-007-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-007",
+    "prompt_text": "Task: feature\nFiles: src/client.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-007-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-007",
+    "prompt_text": "Task: feature\nFiles: src/client.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-007-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-008",
+    "prompt_text": "Task: refactor\nFiles: src/deprecated.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-008-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-008",
+    "prompt_text": "Task: refactor\nFiles: src/deprecated.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-008-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-008",
+    "prompt_text": "Task: refactor\nFiles: src/deprecated.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-008-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-008",
+    "prompt_text": "Task: refactor\nFiles: src/deprecated.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-008-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-008",
+    "prompt_text": "Task: refactor\nFiles: src/deprecated.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-008-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-008",
+    "prompt_text": "Task: refactor\nFiles: src/deprecated.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-008-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-008",
+    "prompt_text": "Task: refactor\nFiles: src/deprecated.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-008-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-008",
+    "prompt_text": "Task: refactor\nFiles: src/deprecated.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-008-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-008",
+    "prompt_text": "Task: refactor\nFiles: src/deprecated.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-008-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-008",
+    "prompt_text": "Task: refactor\nFiles: src/deprecated.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-008-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-009",
+    "prompt_text": "Task: bugfix\nFiles: src/wrapper.py, tests/test_wrapper.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-009-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-009",
+    "prompt_text": "Task: bugfix\nFiles: src/wrapper.py, tests/test_wrapper.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-009-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-009",
+    "prompt_text": "Task: bugfix\nFiles: src/wrapper.py, tests/test_wrapper.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-009-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-009",
+    "prompt_text": "Task: bugfix\nFiles: src/wrapper.py, tests/test_wrapper.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-009-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-009",
+    "prompt_text": "Task: bugfix\nFiles: src/wrapper.py, tests/test_wrapper.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-009-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-009",
+    "prompt_text": "Task: bugfix\nFiles: src/wrapper.py, tests/test_wrapper.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-009-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-009",
+    "prompt_text": "Task: bugfix\nFiles: src/wrapper.py, tests/test_wrapper.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-009-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-009",
+    "prompt_text": "Task: bugfix\nFiles: src/wrapper.py, tests/test_wrapper.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-009-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-009",
+    "prompt_text": "Task: bugfix\nFiles: src/wrapper.py, tests/test_wrapper.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-009-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-009",
+    "prompt_text": "Task: bugfix\nFiles: src/wrapper.py, tests/test_wrapper.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-009-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-010",
+    "prompt_text": "Task: optimization\nFiles: src/cache.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-010-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-010",
+    "prompt_text": "Task: optimization\nFiles: src/cache.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-010-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-010",
+    "prompt_text": "Task: optimization\nFiles: src/cache.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-010-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-010",
+    "prompt_text": "Task: optimization\nFiles: src/cache.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-010-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-010",
+    "prompt_text": "Task: optimization\nFiles: src/cache.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-010-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-010",
+    "prompt_text": "Task: optimization\nFiles: src/cache.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-010-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-010",
+    "prompt_text": "Task: optimization\nFiles: src/cache.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-010-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-010",
+    "prompt_text": "Task: optimization\nFiles: src/cache.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-010-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-010",
+    "prompt_text": "Task: optimization\nFiles: src/cache.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-010-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-010",
+    "prompt_text": "Task: optimization\nFiles: src/cache.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-010-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-011",
+    "prompt_text": "Task: bugfix\nFiles: src/module_11.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-011-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-011",
+    "prompt_text": "Task: bugfix\nFiles: src/module_11.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-011-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-011",
+    "prompt_text": "Task: bugfix\nFiles: src/module_11.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-011-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-011",
+    "prompt_text": "Task: bugfix\nFiles: src/module_11.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-011-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-011",
+    "prompt_text": "Task: bugfix\nFiles: src/module_11.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-011-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-011",
+    "prompt_text": "Task: bugfix\nFiles: src/module_11.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-011-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-011",
+    "prompt_text": "Task: bugfix\nFiles: src/module_11.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-011-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-011",
+    "prompt_text": "Task: bugfix\nFiles: src/module_11.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-011-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-011",
+    "prompt_text": "Task: bugfix\nFiles: src/module_11.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-011-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-011",
+    "prompt_text": "Task: bugfix\nFiles: src/module_11.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-011-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-012",
+    "prompt_text": "Task: feature\nFiles: src/module_12.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-012-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-012",
+    "prompt_text": "Task: feature\nFiles: src/module_12.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-012-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-012",
+    "prompt_text": "Task: feature\nFiles: src/module_12.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-012-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-012",
+    "prompt_text": "Task: feature\nFiles: src/module_12.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-012-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-012",
+    "prompt_text": "Task: feature\nFiles: src/module_12.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-012-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-012",
+    "prompt_text": "Task: feature\nFiles: src/module_12.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-012-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-012",
+    "prompt_text": "Task: feature\nFiles: src/module_12.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-012-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-012",
+    "prompt_text": "Task: feature\nFiles: src/module_12.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-012-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-012",
+    "prompt_text": "Task: feature\nFiles: src/module_12.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-012-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-012",
+    "prompt_text": "Task: feature\nFiles: src/module_12.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-012-tvr-ret-1"
+    ],
+    "memory_type": "cross-repo"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-013",
+    "prompt_text": "Task: refactor\nFiles: src/module_13.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-013-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-013",
+    "prompt_text": "Task: refactor\nFiles: src/module_13.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-013-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-013",
+    "prompt_text": "Task: refactor\nFiles: src/module_13.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-013-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-013",
+    "prompt_text": "Task: refactor\nFiles: src/module_13.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-013-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-013",
+    "prompt_text": "Task: refactor\nFiles: src/module_13.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-013-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-013",
+    "prompt_text": "Task: refactor\nFiles: src/module_13.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-013-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-013",
+    "prompt_text": "Task: refactor\nFiles: src/module_13.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-013-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-013",
+    "prompt_text": "Task: refactor\nFiles: src/module_13.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-013-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-013",
+    "prompt_text": "Task: refactor\nFiles: src/module_13.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-013-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-013",
+    "prompt_text": "Task: refactor\nFiles: src/module_13.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-013-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-014",
+    "prompt_text": "Task: optimization\nFiles: src/module_14.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-014-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-014",
+    "prompt_text": "Task: optimization\nFiles: src/module_14.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-014-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-014",
+    "prompt_text": "Task: optimization\nFiles: src/module_14.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-014-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-014",
+    "prompt_text": "Task: optimization\nFiles: src/module_14.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-014-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-014",
+    "prompt_text": "Task: optimization\nFiles: src/module_14.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-014-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-014",
+    "prompt_text": "Task: optimization\nFiles: src/module_14.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-014-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-014",
+    "prompt_text": "Task: optimization\nFiles: src/module_14.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-014-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-014",
+    "prompt_text": "Task: optimization\nFiles: src/module_14.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-014-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-014",
+    "prompt_text": "Task: optimization\nFiles: src/module_14.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-014-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-014",
+    "prompt_text": "Task: optimization\nFiles: src/module_14.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-014-tvr-ret-1"
+    ],
+    "memory_type": "stale-api"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-015",
+    "prompt_text": "Task: bugfix\nFiles: src/module_15.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-015-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-015",
+    "prompt_text": "Task: bugfix\nFiles: src/module_15.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-015-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-015",
+    "prompt_text": "Task: bugfix\nFiles: src/module_15.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-015-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-015",
+    "prompt_text": "Task: bugfix\nFiles: src/module_15.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-015-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-015",
+    "prompt_text": "Task: bugfix\nFiles: src/module_15.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-015-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-015",
+    "prompt_text": "Task: bugfix\nFiles: src/module_15.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-015-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-015",
+    "prompt_text": "Task: bugfix\nFiles: src/module_15.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-015-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-015",
+    "prompt_text": "Task: bugfix\nFiles: src/module_15.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-015-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-015",
+    "prompt_text": "Task: bugfix\nFiles: src/module_15.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-015-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-015",
+    "prompt_text": "Task: bugfix\nFiles: src/module_15.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-015-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-016",
+    "prompt_text": "Task: feature\nFiles: src/module_16.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-016-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-016",
+    "prompt_text": "Task: feature\nFiles: src/module_16.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-016-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-016",
+    "prompt_text": "Task: feature\nFiles: src/module_16.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-016-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-016",
+    "prompt_text": "Task: feature\nFiles: src/module_16.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-016-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-016",
+    "prompt_text": "Task: feature\nFiles: src/module_16.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-016-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-016",
+    "prompt_text": "Task: feature\nFiles: src/module_16.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-016-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-016",
+    "prompt_text": "Task: feature\nFiles: src/module_16.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-016-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-016",
+    "prompt_text": "Task: feature\nFiles: src/module_16.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-016-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-016",
+    "prompt_text": "Task: feature\nFiles: src/module_16.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-016-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-016",
+    "prompt_text": "Task: feature\nFiles: src/module_16.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-016-tvr-ret-1"
+    ],
+    "memory_type": "stale-security"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-017",
+    "prompt_text": "Task: refactor\nFiles: src/module_17.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-017-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-017",
+    "prompt_text": "Task: refactor\nFiles: src/module_17.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-017-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-017",
+    "prompt_text": "Task: refactor\nFiles: src/module_17.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-017-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-017",
+    "prompt_text": "Task: refactor\nFiles: src/module_17.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-017-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-017",
+    "prompt_text": "Task: refactor\nFiles: src/module_17.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-017-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-017",
+    "prompt_text": "Task: refactor\nFiles: src/module_17.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-017-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-017",
+    "prompt_text": "Task: refactor\nFiles: src/module_17.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-017-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-017",
+    "prompt_text": "Task: refactor\nFiles: src/module_17.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-017-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-017",
+    "prompt_text": "Task: refactor\nFiles: src/module_17.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-017-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-017",
+    "prompt_text": "Task: refactor\nFiles: src/module_17.py\nMemory:\n- ToolVerified RAG: verified pattern for refactor",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-017-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-018",
+    "prompt_text": "Task: optimization\nFiles: src/module_18.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-018-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-018",
+    "prompt_text": "Task: optimization\nFiles: src/module_18.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-018-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-018",
+    "prompt_text": "Task: optimization\nFiles: src/module_18.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-018-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-018",
+    "prompt_text": "Task: optimization\nFiles: src/module_18.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-018-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-018",
+    "prompt_text": "Task: optimization\nFiles: src/module_18.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-018-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-018",
+    "prompt_text": "Task: optimization\nFiles: src/module_18.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-018-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-018",
+    "prompt_text": "Task: optimization\nFiles: src/module_18.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-018-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-018",
+    "prompt_text": "Task: optimization\nFiles: src/module_18.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-018-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-018",
+    "prompt_text": "Task: optimization\nFiles: src/module_18.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-018-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-018",
+    "prompt_text": "Task: optimization\nFiles: src/module_18.py\nMemory:\n- ToolVerified RAG: verified pattern for optimization",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-018-tvr-ret-1"
+    ],
+    "memory_type": "hidden-channel"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-019",
+    "prompt_text": "Task: bugfix\nFiles: src/module_19.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-019-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-019",
+    "prompt_text": "Task: bugfix\nFiles: src/module_19.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-019-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-019",
+    "prompt_text": "Task: bugfix\nFiles: src/module_19.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-019-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-019",
+    "prompt_text": "Task: bugfix\nFiles: src/module_19.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-019-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-019",
+    "prompt_text": "Task: bugfix\nFiles: src/module_19.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-019-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-019",
+    "prompt_text": "Task: bugfix\nFiles: src/module_19.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-019-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-019",
+    "prompt_text": "Task: bugfix\nFiles: src/module_19.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-019-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-019",
+    "prompt_text": "Task: bugfix\nFiles: src/module_19.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-019-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-019",
+    "prompt_text": "Task: bugfix\nFiles: src/module_19.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-019-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-019",
+    "prompt_text": "Task: bugfix\nFiles: src/module_19.py\nMemory:\n- ToolVerified RAG: verified pattern for bugfix",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-019-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-020",
+    "prompt_text": "Task: feature\nFiles: src/module_20.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-020-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-020",
+    "prompt_text": "Task: feature\nFiles: src/module_20.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-020-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-020",
+    "prompt_text": "Task: feature\nFiles: src/module_20.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-020-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-020",
+    "prompt_text": "Task: feature\nFiles: src/module_20.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-020-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-020",
+    "prompt_text": "Task: feature\nFiles: src/module_20.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-020-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-020",
+    "prompt_text": "Task: feature\nFiles: src/module_20.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-020-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-020",
+    "prompt_text": "Task: feature\nFiles: src/module_20.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-020-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-020",
+    "prompt_text": "Task: feature\nFiles: src/module_20.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-020-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-020",
+    "prompt_text": "Task: feature\nFiles: src/module_20.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-020-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  },
+  {
+    "condition": "tool-verified-rag",
+    "sequence_id": "mt-v5-test-020",
+    "prompt_text": "Task: feature\nFiles: src/module_20.py\nMemory:\n- ToolVerified RAG: verified pattern for feature",
+    "patch": "# Mock patch for tool-verified-rag",
+    "pass_label": true,
+    "bad_label": false,
+    "exposed_memories": [
+      "mt-v5-test-020-tvr-ret-1"
+    ],
+    "memory_type": "in-scope"
+  }
+]

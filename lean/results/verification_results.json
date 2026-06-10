@@ -1,0 +1,10 @@
+{
+  "verification_status": "mock_success",
+  "lean_version": "mock",
+  "compiler_proof": "MemTrace/Compiler.lean",
+  "verification_time_seconds": 0.0,
+  "theorems_proven": 0,
+  "theorems_total": 0,
+  "coverage_percent": 0.0,
+  "note": "This is a mock result. Install Lean 4 and run lean/scripts/run_verification.sh for real verification."
+}

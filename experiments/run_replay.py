@@ -174,55 +174,55 @@ def run_condition(
         elif condition == "memgpt":
             from baselines.memgpt import MemGPTMemorySystem
             baseline = MemGPTMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "mem0":
             from baselines.mem0 import Mem0MemorySystem
             baseline = Mem0MemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "naive-vector":
             from baselines.naive_vector import NaiveVectorMemorySystem
             baseline = NaiveVectorMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "zep":
             from baselines.zep import ZepMemorySystem
             baseline = ZepMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "a-mem":
             from baselines.a_mem import AMEMMemorySystem
             baseline = AMEMMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "reflexion":
             from baselines.reflexion import ReflexionMemorySystem
             baseline = ReflexionMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "workflow":
             from baselines.workflow import WorkflowMemorySystem
             baseline = WorkflowMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "conversation":
             from baselines.conversation import ConversationMemorySystem
             baseline = ConversationMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "memorybank":
             from baselines.memorybank import MemoryBankMemorySystem
             baseline = MemoryBankMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "langmem":
             from baselines.langmem import LangMemMemorySystem
             baseline = LangMemMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "current-repo-rag":
             from baselines.current_repo_rag import CurrentRepoRAGMemorySystem
             baseline = CurrentRepoRAGMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "time-aware-rag":
             from baselines.time_aware_rag import TimeAwareRAGMemorySystem
             baseline = TimeAwareRAGMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         elif condition == "tool-verified-rag":
             from baselines.tool_verified_rag import ToolVerifiedRAGMemorySystem
             baseline = ToolVerifiedRAGMemorySystem()
-            result = baseline.run(seq, agent, model_config)
+            result = baseline.run(seq, agent, model_config, use_real=use_real)
         else:
             raise ValueError(f"Unknown condition: {condition}")
         results.append(result)
@@ -379,7 +379,7 @@ def main():
             repo_commit = seq.get("repo_commit", "")
             if repo_url and repo_commit:
                 # Clone repo and set work_dir
-                work_dir = _setup_repo(repo_url, repo_commit)
+                work_dir = _setup_repo(repo_url, repo_commit, seq.get('files'))
                 agent.work_dir = work_dir
                 print(f"  work_dir set to: {work_dir}")
             else:
@@ -409,14 +409,18 @@ def main():
     print("\n=== Done ===")
 
 
-def _setup_repo(repo_url: str, repo_commit: str) -> str:
+def _setup_repo(repo_url: str, repo_commit: str, mock_files: list = None) -> str:
     """
     Clone a repo and checkout a specific commit.
     Returns the path to the cloned repo.
 
+    For mock repositories (URLs containing 'mock_org' or 'example.com'),
+    create a temporary directory with mock files instead of cloning.
+
     Args:
         repo_url:    GitHub repo URL (e.g., "https://github.com/owner/repo")
         repo_commit: Commit hash to checkout
+        mock_files:   List of mock file dicts with 'file_path' and 'content' keys (for mock repos)
 
     Returns:
         Path to the cloned repo directory.
@@ -427,14 +431,56 @@ def _setup_repo(repo_url: str, repo_commit: str) -> str:
     assert isinstance(repo_url, str) and repo_url.strip() != "", f"repo_url must be non-empty, got {repo_url!r}"
     assert isinstance(repo_commit, str) and repo_commit.strip() != "", f"repo_commit must be non-empty, got {repo_commit!r}"
 
+    # Detect mock repository URLs
+    is_mock_repo = 'mock_org' in repo_url or 'example.com' in repo_url or 'mock' in repo_url.lower()
+
+    if is_mock_repo:
+        # Create temporary directory with mock files
+        clone_path = tempfile.mkdtemp(prefix="run_replay_mock_repo_")
+        print(f"[INFO] Mock repo detected: {repo_url}")
+        print(f"[INFO] Creating mock repo directory: {clone_path}")
+
+        # Create mock files if provided
+        if mock_files:
+            for file_info in mock_files:
+                file_path = os.path.join(clone_path, file_info.get('file_path', 'mock_file.py'))
+                dir_path = os.path.dirname(file_path)
+                if dir_path:
+                    os.makedirs(dir_path, exist_ok=True)
+                with open(file_path, 'w') as f:
+                    f.write(file_info.get('content', '# mock content\n'))
+
+        # Initialize git repo so tests can run
+        init_cmd = "git init"
+        result = subprocess.run(init_cmd, shell=True, capture_output=True, text=True, cwd=clone_path, timeout=30)
+        if result.returncode != 0:
+            print(f"[WARNING] git init failed for mock repo: {result.stderr}")
+
+        return clone_path
+
+    # Real repository: clone and checkout
     clone_dir = tempfile.mkdtemp(prefix="run_replay_repo_")
     repo_name = repo_url.rstrip("/").split("/")[-1].replace(".git", "")
     clone_path = os.path.join(clone_dir, repo_name)
 
     # Clone
-    clone_cmd = f"git clone --depth 1 {repo_url} {repo_name}"
-    result = subprocess.run(clone_cmd, shell=True, capture_output=True, text=True, cwd=clone_dir, timeout=120)
-    assert result.returncode == 0, f"git clone failed: {result.stderr}"
+    # Use git init + git fetch (supports arbitrary commit hashes)
+    os.makedirs(clone_path, exist_ok=True)
+    init_cmd = "git init"
+    result = subprocess.run(init_cmd, shell=True, capture_output=True, text=True, cwd=clone_path, timeout=30)
+    assert result.returncode == 0, f"git init failed: {result.stderr}"
+
+    # Fetch the specific commit (GitHub supports fetching by SHA)
+    # Syntax: git fetch --depth 1 <url> <commit>  (not "origin <url> <commit>")
+    fetch_cmd = f"git fetch --depth 1 {repo_url}.git {repo_commit}"
+    result = subprocess.run(fetch_cmd, shell=True, capture_output=True, text=True, cwd=clone_path, timeout=120)
+    if result.returncode != 0:
+        # Fallback: try without .git suffix
+        fetch_cmd2 = f"git fetch --depth 1 {repo_url} {repo_commit}"
+        result = subprocess.run(fetch_cmd2, shell=True, capture_output=True, text=True, cwd=clone_path, timeout=120)
+        assert result.returncode == 0, f"git fetch failed for {repo_commit}: {result.stderr}"
+    # REMOVED: old broken clone code - init+fetch is above
+    pass  # init+fetch already done above
 
     # Checkout commit
     checkout_cmd = f"git checkout {repo_commit}"
